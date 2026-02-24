@@ -173,56 +173,59 @@ class S3DArchive {
 }
 
 // --- Main Execution ---
-async function extractCharacter(archiveName) {
+async function extractLuclinCharacter(archiveName) {
     const eqPath = '/home/tommy/Desktop/MobileClient/tmp_assets';
     const inputFile = path.join(eqPath, `${archiveName}.s3d`);
 
     if (!fs.existsSync(inputFile)) {
-        console.error(`❌ File not found: ${inputFile}`);
+        console.error(`❌ Luclin model not found: ${inputFile}`);
         return;
     }
 
     try {
-        console.log(`\n🔍 Loading ${archiveName}.s3d...`);
+        console.log(`\n🔍 Loading Luclin Model: ${archiveName}.s3d...`);
+        // High-level S3D loading abstraction
         const archive = await S3D.load(inputFile);
 
-        // Load global_chr for shared animations if needed
+        // Load shared Luclin animations from global_chr
         const globalChrFile = path.join(eqPath, 'global_chr.s3d');
         if (fs.existsSync(globalChrFile)) {
-            console.log(`🔍 Loading shared animations from global_chr.s3d...`);
             const globalArchive = await S3D.load(globalChrFile);
             const globalWld = globalArchive.decoder.wldFiles[0];
 
-            // Prep the shared WLD: Parse tracks and assign to skeletons
+            // High-level model preparation
             await globalArchive.decoder.exportModels(globalWld, false);
-
             archive.decoder.globalWld = globalWld;
 
-            // Merge global textures into the model's decoder for shared heads, etc.
+            // High-level texture/asset merging
             await globalArchive.decoder.export(false);
             Object.assign(archive.decoder.textureMap, globalArchive.decoder.textureMap);
         }
 
+        // Use high-level GLB export abstraction
         const glbData = await archive.exportToGLB();
 
         if (glbData) {
-            // Rename globalbam_chr to bam for the client
-            const outputName = archiveName === 'globalbam_chr' ? 'bam' : archiveName;
+            const outputName = archiveName.replace('global', '').replace('_chr', '');
             const outputFile = path.join(outputDir, `${outputName}.glb`);
             fs.writeFileSync(outputFile, Buffer.from(glbData));
-            console.log(`✅ Exported ${outputName}.glb to ${outputFile}`);
-
-            console.log(`🦴 Post-export Skeletons for ${archiveName}:`);
-            for (const wld of archive.decoder.wldFiles) {
-                for (const skel of wld.skeletons) {
-                    console.log(`      🦴 Skeleton: ${skel.modelBase} (${skel.animations ? Object.keys(skel.animations).length : 0} anims)`);
-                }
-            }
+            console.log(`✅ Exported Luclin ${outputName}.glb to ${outputFile}`);
         }
     } catch (e) {
-        console.error("💥 Extraction Failed:", e);
+        console.error("💥 Luclin Extraction Failed:", e);
     }
 }
 
-const target = process.argv[2] || 'globalbam_chr';
-extractCharacter(target);
+// Focus exclusively on Luclin targets
+const targets = [
+    'globalbam_chr', 'globalhum_chr', 'globalerf_chr', 'globalerm_chr',
+    'globalelf_chr', 'globalelm_chr', 'globalhif_chr', 'globalhim_chr'
+];
+
+async function runPipeline() {
+    for (const target of targets) {
+        await extractLuclinCharacter(target);
+    }
+}
+
+runPipeline();

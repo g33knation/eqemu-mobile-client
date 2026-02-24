@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileClient - Luclin Evolution</title>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #000; color: #fff; font-family: sans-serif; }
+        #canvas-container { width: 100vw; height: 100vh; }
+        #ui-overlay { position: absolute; top: 10px; left: 10px; pointer-events: none; }
+        .secure-notice { color: #f00; font-size: 0.8em; opacity: 0.5; }
+    </style>
+</head>
+<body>
+    <div id="ui-overlay">
+        <h1>MobileClient</h1>
+        <div id="status">Connecting...</div>
+        <div class="secure-notice">PROTOCOL: SECURE | TARGET: LUCLIN</div>
+    </div>
+    <div id="canvas-container"></div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="game.js"></script>
+</body>
+</html>
