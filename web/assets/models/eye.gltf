@@ -1,0 +1,258 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0-alpha0025\u002Bf6e5ebd1f3edb5ab47dbac6e6f7042dedb7f8980",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 34,
+      "max": [
+        20.173826217651367,
+        22.583984375,
+        23.064451217651367
+      ],
+      "min": [
+        -24.994138717651367,
+        -22.583984375,
+        -22.103513717651367
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 34,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 34,
+      "max": [
+        0.99609375,
+        -0
+      ],
+      "min": [
+        -0.9765625,
+        -1
+      ],
+      "type": "VEC2"
+    },
+    {
+      "name": "JOINTS_0",
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5121,
+      "count": 34,
+      "type": "VEC4"
+    },
+    {
+      "name": "WEIGHTS_0",
+      "bufferView": 0,
+      "byteOffset": 36,
+      "componentType": 5126,
+      "count": 34,
+      "max": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "min": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 144,
+      "type": "SCALAR"
+    },
+    {
+      "name": "Bind Matrices",
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        2.028160110967292E-07,
+        0,
+        1.000000238418579,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1.000000238418579,
+        0,
+        1.0000003576278687,
+        0,
+        -1.4453126192092896,
+        0,
+        0.9648442268371582,
+        1
+      ],
+      "min": [
+        -1.0000003576278687,
+        0,
+        4.056321074585867E-07,
+        0,
+        0,
+        1,
+        0,
+        0,
+        4.056321074585867E-07,
+        0,
+        -2.028160110967292E-07,
+        0,
+        -2.4101574420928955,
+        0,
+        -0.4804684519767761,
+        1
+      ],
+      "type": "MAT4"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1768,
+      "byteStride": 52,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 1768,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 128,
+      "byteOffset": 2056
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2184,
+      "uri": "eye.bin"
+    }
+  ],
+  "images": [
+    {
+      "name": "eyehe0001",
+      "uri": "Textures/eyehe0001.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "d_eyehe0001",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "eye",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "JOINTS_0": 3,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "root",
+      "children": [
+        1
+      ],
+      "rotation": [
+        0,
+        0.7071067,
+        -0,
+        0.7071067
+      ],
+      "translation": [
+        -0.96484375,
+        0,
+        -1.4453125
+      ]
+    },
+    {
+      "name": "root_00",
+      "rotation": [
+        0,
+        0.7071067,
+        -0,
+        0.7071067
+      ],
+      "translation": [
+        -0.96484375,
+        0,
+        -1.4453125
+      ]
+    },
+    {
+      "mesh": 0,
+      "skin": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        2
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "joints": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

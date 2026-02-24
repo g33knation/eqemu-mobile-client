@@ -1,0 +1,13 @@
+# WLD Mesh R3306_DMSPRITEDEF
+mtllib R3306_DMSPRITEDEF.mtl
+usemtl Material0
+v 322 -3 220
+v -669.5 -3 220
+v -669.5 -3 -180
+v 322 -3 -180
+vt -0.83203125 -0.203125
+vt -0.83203125 1.8632813
+vt 0 1.8632813
+vt 0 -0.203125
+f 1/1 2/2 3/3
+f 3/3 4/4 1/1

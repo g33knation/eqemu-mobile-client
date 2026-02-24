@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+        .item { border: 1px solid #ccc; padding: 5px; text-align: center; }
+        img { width: 100%; image-rendering: pixelated; }
+    </style>
+</head>
+<body>
+    <div id="grid" class="grid"></div>
+    <script>
+        const textures = [
+            'bamfask01.png', 'bamfask02.png',
+            'bamhesk01.png', 'bamhesk02.png', 'bamhesk03.png', 'bamhesk04.png',
+            'bamhesk05.png', 'bamhesk06.png', 'bamhesk07.png', 'bamhesk08.png',
+            'bamhesk11.png', 'bamhesk14.png', 'bamhesk15.png', 'bamhesk21.png',
+            'bamhesk24.png', 'bamhesk25.png', 'bamhesk31.png', 'bamhesk34.png',
+            'bamhesk35.png', 'bamhesk41.png', 'bamhesk44.png', 'bamhesk45.png',
+            'bamhesk51.png', 'bamhesk54.png', 'bamhesk55.png', 'bamhesk61.png',
+            'bamhesk64.png', 'bamhesk65.png', 'bamhesk71.png', 'bamhesk74.png',
+            'bamhesk75.png'
+        ];
+        const grid = document.getElementById('grid');
+        textures.forEach(t => {
+            const div = document.createElement('div');
+            div.className = 'item';
+            div.innerHTML = `<h3>${t}</h3><img src="assets/Textures/${t}">`;
+            grid.appendChild(div);
+        });
+    </script>
+</body>
+</html>

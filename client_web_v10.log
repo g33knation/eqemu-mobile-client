@@ -1,0 +1,156 @@
+🚀 Mobile Client Started.
+🌐 Web UI available at http://localhost:3030
+🔌 Connecting to Login Server at 192.168.1.21:5998
+🌐 Web UI available at http://localhost:3030
+🤝 Starting UDP Handshake with 192.168.1.21:5998
+
+thread 'tokio-runtime-worker' (199145) panicked at /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/warp-0.3.7/src/server.rs:217:27:
+error binding to 0.0.0.0:3030: error creating server listener: Address already in use (os error 98)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+<< ConnectReply Hex: 00 02 04 A4 80 4E FF FF FF FF 02 00 00 00 00 02 00 
+✅ Handshake Complete! Key: 0xFFFFFFFF, CRC: 2, P1: 0, P2: 0
+>> Sent OP_SessionReady
+>> Sent OP_Login (User: tmc)
+🎉 LOGIN ACCEPTED!
+🔑 Session Key: SKYSGS2BQL, LSID: 1
+📑 Requesting Server List...
+📜 Received Server List!
+Available Servers:
+  [1] Akkas Docker PEQ Installer (Status: 0)
+🚀 Joining Akkas Docker PEQ Installer (192.168.1.21)
+🛸 Received Play Response! Proceeding to World Handoff...
+🔌 Connecting to World Server at 192.168.1.21:9000
+🤝 Starting UDP Handshake with 192.168.1.21:9000
+<< ConnectReply Hex: 00 02 87 3C 38 DF FF FF FF FF 02 00 00 00 00 02 00 
+✅ Handshake Complete! Key: 0xFFFFFFFF, CRC: 2, P1: 0, P2: 0
+🛂 Sending login info to World Server...
+⏳ Waiting for World Approval and Character List...
+<< Received 28 bytes from Login Server (Trailing)
+🚀 STARTING NEW REASSEMBLY: Total Size=96066
+📦 PACKET REASSEMBLED! Size: 96066
+🎭 RECEIVED CHARACTER INFO! (Op: 0x6957, Size: 96066)
+   Successfully parsed TitaniumCharInfo!
+⚠️ No characters found. Using override 'Juggs'...
+ℹ️  Received LogServer packet
+🚀 STARTING NEW REASSEMBLY: Total Size=546
+📦 PACKET REASSEMBLED! Size: 546
+🌎 WORLD APPROVED! We are in!
+📩 World App Packet: Op=0x7CBA, Size=3
+   Hex: BA 7C 00 
+🚀 POST ENTER WORLD (Ready for character selection)!
+🚀 ENTERING WORLD with character: Juggs
+>> Sending EnterWorld for Juggs (index 0)
+📩 World App Packet: Op=0x04EC, Size=6
+   Hex: EC 04 FF F7 07 00 
+🚀 STARTING NEW REASSEMBLY: Total Size=1706
+📦 PACKET REASSEMBLED! Size: 1706
+🎭 RECEIVED CHARACTER INFO! (Op: 0x4513, Size: 1706)
+   Successfully parsed TitaniumCharInfo!
+   [0] Name: 'Juggs', Class: 10, Race: 2, Zone: 29
+   [1] Name: 'Truezero', Class: 10, Race: 10, Zone: 189
+   Character identified: Juggs. Waiting for PostEnterWorld...
+📩 World App Packet: Op=0x024D, Size=227
+   Hex: 4D 02 5B 54 68 65 20 50 72 6F 6A 65 63 74 45 51 20 54 65 61 6D 5D 20 57 65 6C 63 6F 6D 65 20 74 
+📩 World App Packet: Op=0x00D7, Size=63
+   Hex: D7 00 31 39 32 2E 31 36 38 2E 31 2E 32 31 2C 37 37 37 38 2C 41 6B 6B 61 73 20 44 6F 63 6B 65 72 
+📩 World App Packet: Op=0x6536, Size=63
+   Hex: 36 65 31 39 32 2E 31 36 38 2E 31 2E 32 31 2C 37 37 37 38 2C 41 6B 6B 61 73 20 44 6F 63 6B 65 72 
+🌍 RECEIVED ZONE SERVER INFO! (Op: 0x61b6)
+   Hex: 31 39 32 2E 31 36 38 2E 31 2E 32 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5E 1B 
+   Zone Server IP: 192.168.1.21
+   Zone Server Port: 7006
+
+🔌 Connecting to Zone Server at 192.168.1.21:7006
+🤝 Starting UDP Handshake with 192.168.1.21:7006
+<< ConnectReply Hex: 00 02 0F B0 2C E6 00 00 00 00 02 01 00 00 00 02 00 
+✅ Handshake Complete! Key: 0x00000000, CRC: 2, P1: 1, P2: 0
+✅ Zone Server UDP handshake complete! Current SeqIn: 0
+   Zoning with Character: Juggs
+>> Sending Titanium OP_ZoneEntry (Size: 68)
+⏳ Running zone handshake...
+🚀 STARTING NEW REASSEMBLY: Total Size=19594
+📦 PACKET REASSEMBLED! Size: 19594
+📋 Received PlayerProfile (19594 bytes)
+   Name: Juggs, Race: 2, Class: 10
+💾 Dumped profile_full.bin (19592 bytes)
+📍 Player Coords: X=0.0, Y=2500.0, Z=250.0, H=0.0
+   Player XYZ Hex: 00 00 00 00 00 40 1C 45 00 00 7A 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+💾 Dumped inventory.bin (5120 bytes)
+   [STATE] profile=true new_zone=false req_new_zone=false req_spawn=false ready=false
+   [STATE] profile=true new_zone=false req_new_zone=false req_spawn=false ready=false
+   [STATE] profile=true new_zone=false req_new_zone=false req_spawn=false ready=false
+   [STATE] profile=true new_zone=false req_new_zone=false req_spawn=false ready=false
+   [STATE] profile=true new_zone=false req_new_zone=false req_spawn=false ready=false
+🚀 STARTING NEW REASSEMBLY: Total Size=3770
+📦 PACKET REASSEMBLED! Size: 3770
+🗺️  ItemData (Op=0x5394) received - assuming zoned in.
+📦 ItemData (Op=0x5394, 3770 bytes)
+   Sample: 0|0|13|0|1|0|24|0|1|0|0|"0|Club*|Club|IT112|9999|50|1|0|2|24576|
+>> Sent OP_ReqNewZone
+   [STATE] profile=true new_zone=true req_new_zone=true req_spawn=false ready=false
+>> Sent OP_ReqClientSpawn (triggered by packet flow)
+>> Sent OP_ClientReady — CONNECTION ESTABLISHED! 🎉
+🚀 STARTING NEW REASSEMBLY: Total Size=742
+📦 PACKET REASSEMBLED! Size: 742
+🗺️  Received Binary NewZone (Op=0x0920, 742 bytes)
+   ✅ Success! Zone Name: halas
+🚀 STARTING NEW REASSEMBLY: Total Size=1042
+📦 PACKET REASSEMBLED! Size: 1042
+🚪 Received SpawnDoor (Op=0x4c24, 1042 bytes) — skipping
+🧑 Received NewSpawn (Op=0x0F47, 107 bytes, app_data=105)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 98, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 67, 0, 0, 128, 51, 0, 0, 27, 195, 0, 0, 190, 67, 73, 84, 49, 50, 56, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 115, 114, 101, 109, 97]
+⚠️ SpawnStruct parse error at offset 102/105: failed to fill whole buffer
+⚠️ Got spawn packet (105 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 212, 66, 0, 0, 0, 0, 0, 128, 159, 195, 0, 0, 102, 67, 73, 84, 54, 54, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 0, 0, 0, 0, 0, 0]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 107 bytes, app_data=105)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 244, 66, 128, 79, 195, 199, 0, 192, 181, 68, 0, 0, 19, 67, 73, 84, 49, 50, 56, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 0, 0, 0, 0, 0]
+⚠️ SpawnStruct parse error at offset 102/105: failed to fill whole buffer
+⚠️ Got spawn packet (105 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 95, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 129, 67, 0, 0, 0, 0, 0, 0, 128, 195, 0, 0, 51, 67, 73, 84, 54, 54, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 67, 0, 0, 0, 0, 0, 128, 145, 195, 0, 0, 107, 67, 73, 84, 54, 54, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 93, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 194, 67, 0, 0, 0, 0, 0, 0, 132, 195, 0, 0, 248, 66, 73, 84, 55, 48, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 92, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 67, 0, 0, 0, 0, 0, 0, 9, 195, 0, 0, 92, 67, 73, 84, 55, 48, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 91, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 67, 0, 0, 0, 0, 0, 128, 191, 67, 0, 0, 65, 67, 73, 84, 55, 52, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 190, 67, 0, 0, 0, 0, 0, 0, 212, 67, 0, 0, 49, 67, 73, 84, 55, 51, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 106 bytes, app_data=104)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128, 64, 0, 0, 0, 0, 0, 0, 150, 195, 0, 128, 150, 67, 73, 84, 54, 57, 95, 65, 67, 84, 79, 82, 68, 69, 70, 0, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 102/104: failed to fill whole buffer
+⚠️ Got spawn packet (104 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+🧑 Received NewSpawn (Op=0x0F47, 97 bytes, app_data=95)
+   RAW[..64]: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 88, 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 193, 0, 0, 52, 67, 0, 0, 6, 195, 73, 84, 54, 51, 0, 195, 0, 128, 150, 67, 73, 84, 54, 57, 95, 65, 67, 84, 79, 82]
+⚠️ SpawnStruct parse error at offset 94/95: failed to fill whole buffer
+⚠️ Got spawn packet (95 bytes) but parsed 0 spawns! Struct size might be wrong.
+🔍 Scanning raw data for char name: 'Juggs'
+📈 Received SendAAStats
+� Received SendExpZonein

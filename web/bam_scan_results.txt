@@ -1,0 +1,1168 @@
+Processing S3D:  acrylia_chr.s3d Skip Images:  true
+Processing WLD file - acrylia_chr.wld
+Processed - acrylia_chr.s3d
+Processing S3D:  ael_chr.s3d Skip Images:  true
+Processing WLD file - ael_chr.wld
+Processed - ael_chr.s3d
+Processing S3D:  airplane_chr.s3d Skip Images:  true
+Processing WLD file - airplane_chr.wld
+Processed - airplane_chr.s3d
+Processing S3D:  akanon_chr.s3d Skip Images:  true
+Processing WLD file - akanon_chr.wld
+Processed - akanon_chr.s3d
+Processing S3D:  akheva_chr.s3d Skip Images:  true
+Processing WLD file - akheva_chr.wld
+Processed - akheva_chr.s3d
+Processing S3D:  arena_chr.s3d Skip Images:  true
+Processing WLD file - arena_chr.wld
+Processed - arena_chr.s3d
+Processing S3D:  befallen_chr.s3d Skip Images:  true
+Processing WLD file - befallen_chr.wld
+Processed - befallen_chr.s3d
+Processing S3D:  beholder_chr.s3d Skip Images:  true
+Processing WLD file - beholder_chr.wld
+Processed - beholder_chr.s3d
+Processing S3D:  bgb_chr.s3d Skip Images:  true
+Processing WLD file - bgb_chr.wld
+Processed - bgb_chr.s3d
+Processing S3D:  blackburrow_chr.s3d Skip Images:  true
+Processing WLD file - blackburrow_chr.wld
+Processed - blackburrow_chr.s3d
+Processing S3D:  bon_chr.s3d Skip Images:  true
+Processing WLD file - bon_chr.wld
+Processed - bon_chr.s3d
+Processing S3D:  bothunder_chr.s3d Skip Images:  true
+Processing WLD file - bothunder_chr.wld
+Processed - bothunder_chr.s3d
+Processing S3D:  box_chr.s3d Skip Images:  true
+Processing WLD file - box_chr.wld
+Processed - box_chr.s3d
+Processing S3D:  brl_chr.s3d Skip Images:  true
+Processing WLD file - brl_chr.wld
+Processed - brl_chr.s3d
+Processing S3D:  brv_chr.s3d Skip Images:  true
+Processing WLD file - brv_chr.wld
+Processed - brv_chr.s3d
+Processing S3D:  burningwood_chr.s3d Skip Images:  true
+Processing WLD file - burningwood_chr.wld
+Processed - burningwood_chr.s3d
+Processing S3D:  butcher2_chr.s3d Skip Images:  true
+Processing WLD file - butcher2_chr.wld
+Processed - butcher2_chr.s3d
+Processing S3D:  butcher_chr.s3d Skip Images:  true
+Processing WLD file - butcher_chr.wld
+Processed - butcher_chr.s3d
+Processing S3D:  bvk_chr.s3d Skip Images:  true
+Processing WLD file - bvk_chr.wld
+Processed - bvk_chr.s3d
+Processing S3D:  bwd_chr.s3d Skip Images:  true
+Processing WLD file - bwd_chr.wld
+Processed - bwd_chr.s3d
+Processing S3D:  cabeast_chr.s3d Skip Images:  true
+Processing WLD file - cabeast_chr.wld
+Processed - cabeast_chr.s3d
+Processing S3D:  cabwest_chr.s3d Skip Images:  true
+Processing WLD file - cabwest_chr.wld
+Processed - cabwest_chr.s3d
+Processing S3D:  cauldron_chr.s3d Skip Images:  true
+Processing WLD file - cauldron_chr.wld
+Processed - cauldron_chr.s3d
+Processing S3D:  cazicthule_chr.s3d Skip Images:  true
+Processing WLD file - cazicthule_chr.wld
+Processed - cazicthule_chr.s3d
+Processing S3D:  charasis_chr.s3d Skip Images:  true
+Processing WLD file - charasis_chr.wld
+Processed - charasis_chr.s3d
+Processing S3D:  chardok_chr.s3d Skip Images:  true
+Processing WLD file - chardok_chr.wld
+Processed - chardok_chr.s3d
+Processing S3D:  chardokb_chr.s3d Skip Images:  true
+Processing WLD file - chardokb_chr.wld
+Processed - chardokb_chr.s3d
+Processing S3D:  citymist_chr.s3d Skip Images:  true
+Processing WLD file - citymist_chr.wld
+Processed - citymist_chr.s3d
+Processing S3D:  clb_chr.s3d Skip Images:  true
+Processing WLD file - clb_chr.wld
+Processed - clb_chr.s3d
+Processing S3D:  cobaltscar_chr.s3d Skip Images:  true
+Processing WLD file - cobaltscar_chr.wld
+Processed - cobaltscar_chr.s3d
+Processing S3D:  codecay_chr.s3d Skip Images:  true
+Processing WLD file - codecay_chr.wld
+Processed - codecay_chr.s3d
+Processing S3D:  cof_chr.s3d Skip Images:  true
+Processing WLD file - cof_chr.wld
+Processed - cof_chr.s3d
+Processing S3D:  com_chr.s3d Skip Images:  true
+Processing WLD file - com_chr.wld
+Processed - com_chr.s3d
+Processing S3D:  commons_chr.s3d Skip Images:  true
+Processing WLD file - commons_chr.wld
+Processed - commons_chr.s3d
+Processing S3D:  cpt_chr.s3d Skip Images:  true
+Processing WLD file - cpt_chr.wld
+Processed - cpt_chr.s3d
+Processing S3D:  crb_chr.s3d Skip Images:  true
+Processing WLD file - crb_chr.wld
+Processed - crb_chr.s3d
+Processing S3D:  crushbone_chr.s3d Skip Images:  true
+Processing WLD file - crushbone_chr.wld
+Processed - crushbone_chr.s3d
+Processing S3D:  crystal_chr.s3d Skip Images:  true
+Processing WLD file - crystal_chr.wld
+Processed - crystal_chr.s3d
+Processing S3D:  crystalshard_chr.s3d Skip Images:  true
+Processing WLD file - crystalshard_chr.wld
+Processed - crystalshard_chr.s3d
+Processing S3D:  cst_chr.s3d Skip Images:  true
+Processing WLD file - cst_chr.wld
+Processed - cst_chr.s3d
+Processing S3D:  cub_chr.s3d Skip Images:  true
+Processing WLD file - cub_chr.wld
+Processed - cub_chr.s3d
+Processing S3D:  dalnir_chr.s3d Skip Images:  true
+Processing WLD file - dalnir_chr.wld
+Processed - dalnir_chr.s3d
+Processing S3D:  dawnshroud_chr.s3d Skip Images:  true
+Processing WLD file - dawnshroud_chr.wld
+Processed - dawnshroud_chr.s3d
+Processing S3D:  dji_chr.s3d Skip Images:  true
+Processing WLD file - dji_chr.wld
+Processed - dji_chr.s3d
+Processing S3D:  dpf_chr.s3d Skip Images:  true
+Processing WLD file - dpf_chr.wld
+Processed - dpf_chr.s3d
+Processing S3D:  dpm_chr.s3d Skip Images:  true
+Processing WLD file - dpm_chr.wld
+Processed - dpm_chr.s3d
+Processing S3D:  dr2_chr.s3d Skip Images:  true
+Processing WLD file - dr2_chr.wld
+Processed - dr2_chr.s3d
+Processing S3D:  dra_chr.s3d Skip Images:  true
+Processing WLD file - dra_chr.wld
+Processed - dra_chr.s3d
+Processing S3D:  dreadlands_chr.s3d Skip Images:  true
+Processing WLD file - dreadlands_chr.wld
+Processed - dreadlands_chr.s3d
+Processing S3D:  droga_chr.s3d Skip Images:  true
+Processing WLD file - droga_chr.wld
+Processed - droga_chr.s3d
+Processing S3D:  drv_chr.s3d Skip Images:  true
+Processing WLD file - drv_chr.wld
+Processed - drv_chr.s3d
+Processing S3D:  eastkarana_chr.s3d Skip Images:  true
+Processing WLD file - eastkarana_chr.wld
+Processed - eastkarana_chr.s3d
+Processing S3D:  eastwastes_chr.s3d Skip Images:  true
+Processing WLD file - eastwastes_chr.wld
+Processed - eastwastes_chr.s3d
+Processing S3D:  eastwastesshard_chr.s3d Skip Images:  true
+Processing WLD file - eastwastesshard_chr.wld
+Processed - eastwastesshard_chr.s3d
+Processing S3D:  echo_chr.s3d Skip Images:  true
+Processing WLD file - echo_chr.wld
+Processed - echo_chr.s3d
+Processing S3D:  ecommons_chr.s3d Skip Images:  true
+Processing WLD file - ecommons_chr.wld
+Processed - ecommons_chr.s3d
+Processing S3D:  eel_chr.s3d Skip Images:  true
+Processing WLD file - eel_chr.wld
+Processed - eel_chr.s3d
+Processing S3D:  eey_chr.s3d Skip Images:  true
+Processing WLD file - eey_chr.wld
+Processed - eey_chr.s3d
+Processing S3D:  efc_chr.s3d Skip Images:  true
+Processing WLD file - efc_chr.wld
+Processed - efc_chr.s3d
+Processing S3D:  efe_chr.s3d Skip Images:  true
+Processing WLD file - efe_chr.wld
+Processed - efe_chr.s3d
+Processing S3D:  efw_chr.s3d Skip Images:  true
+Processing WLD file - efw_chr.wld
+Processed - efw_chr.s3d
+Processing S3D:  emeraldjungle_chr.s3d Skip Images:  true
+Processing WLD file - emeraldjungle_chr.wld
+Processed - emeraldjungle_chr.s3d
+Processing S3D:  emp_chr.s3d Skip Images:  true
+Processing WLD file - emp_chr.wld
+Processed - emp_chr.s3d
+Processing S3D:  epf_chr.s3d Skip Images:  true
+Processing WLD file - epf_chr.wld
+Processed - epf_chr.s3d
+Processing S3D:  epm_chr.s3d Skip Images:  true
+Processing WLD file - epm_chr.wld
+Processed - epm_chr.s3d
+Processing S3D:  erudnext_chr.s3d Skip Images:  true
+Processing WLD file - erudnext_chr.wld
+Processed - erudnext_chr.s3d
+Processing S3D:  erudnint_chr.s3d Skip Images:  true
+Processing WLD file - erudnint_chr.wld
+Processed - erudnint_chr.s3d
+Processing S3D:  erudsxing_chr.s3d Skip Images:  true
+Processing WLD file - erudsxing_chr.wld
+Processed - erudsxing_chr.s3d
+Processing S3D:  everfrost_chr.s3d Skip Images:  true
+Processing WLD file - everfrost_chr.wld
+Processed - everfrost_chr.s3d
+Processing S3D:  fbf_chr.s3d Skip Images:  true
+Processing WLD file - fbf_chr.wld
+Processed - fbf_chr.s3d
+Processing S3D:  fbm_chr.s3d Skip Images:  true
+Processing WLD file - fbm_chr.wld
+Processed - fbm_chr.s3d
+Processing S3D:  fdr_chr.s3d Skip Images:  true
+Processing WLD file - fdr_chr.wld
+Processed - fdr_chr.s3d
+Processing S3D:  fearplane_chr.s3d Skip Images:  true
+Processing WLD file - fearplane_chr.wld
+Processed - fearplane_chr.s3d
+Processing S3D:  feerrott_chr.s3d Skip Images:  true
+Processing WLD file - feerrott_chr.wld
+Processed - feerrott_chr.s3d
+Processing S3D:  fel_chr.s3d Skip Images:  true
+Processing WLD file - fel_chr.wld
+Processed - fel_chr.s3d
+Processing S3D:  felwithea_chr.s3d Skip Images:  true
+Processing WLD file - felwithea_chr.wld
+Processed - felwithea_chr.s3d
+Processing S3D:  felwitheb_chr.s3d Skip Images:  true
+Processing WLD file - felwitheb_chr.wld
+Processed - felwitheb_chr.s3d
+Processing S3D:  fgh_chr.s3d Skip Images:  true
+Processing WLD file - fgh_chr.wld
+Processed - fgh_chr.s3d
+Processing S3D:  fieldofbone_chr.s3d Skip Images:  true
+Processing WLD file - fieldofbone_chr.wld
+Processed - fieldofbone_chr.s3d
+Processing S3D:  firiona_chr.s3d Skip Images:  true
+Processing WLD file - firiona_chr.wld
+Processed - firiona_chr.s3d
+Processing S3D:  fmo_chr.s3d Skip Images:  true
+Processing WLD file - fmo_chr.wld
+Processed - fmo_chr.s3d
+Processing S3D:  fmp_chr.s3d Skip Images:  true
+Processing WLD file - fmp_chr.wld
+Processed - fmp_chr.s3d
+Processing S3D:  fmt_chr.s3d Skip Images:  true
+Processing WLD file - fmt_chr.wld
+Processed - fmt_chr.s3d
+Processing S3D:  freporte_chr.s3d Skip Images:  true
+Processing WLD file - freporte_chr.wld
+Processed - freporte_chr.s3d
+Processing S3D:  freportn_chr.s3d Skip Images:  true
+Processing WLD file - freportn_chr.wld
+Processed - freportn_chr.s3d
+Processing S3D:  freportw_chr.s3d Skip Images:  true
+Processing WLD file - freportw_chr.wld
+Processed - freportw_chr.s3d
+Processing S3D:  frog_mount_chr.s3d Skip Images:  true
+Processing WLD file - frog_mount_chr.wld
+Processed - frog_mount_chr.s3d
+Processing S3D:  frontiermtns_chr.s3d Skip Images:  true
+Processing WLD file - frontiermtns_chr.wld
+Processed - frontiermtns_chr.s3d
+Processing S3D:  frozenshadow_chr.s3d Skip Images:  true
+Processing WLD file - frozenshadow_chr.wld
+Processed - frozenshadow_chr.s3d
+Processing S3D:  fsk_chr.s3d Skip Images:  true
+Processing WLD file - fsk_chr.wld
+Processed - fsk_chr.s3d
+Processing S3D:  fud_chr.s3d Skip Images:  true
+Processing WLD file - fud_chr.wld
+Processed - fud_chr.s3d
+Processing S3D:  fungusgrove_chr.s3d Skip Images:  true
+Processing WLD file - fungusgrove_chr.wld
+Processed - fungusgrove_chr.s3d
+Processing S3D:  gbl_chr.s3d Skip Images:  true
+Processing WLD file - gbl_chr.wld
+Processed - gbl_chr.s3d
+Processing S3D:  gdr_chr.s3d Skip Images:  true
+Processing WLD file - gdr_chr.wld
+Processed - gdr_chr.s3d
+Processing S3D:  gfaydark_chr.s3d Skip Images:  true
+Processing WLD file - gfaydark_chr.wld
+Processed - gfaydark_chr.s3d
+Processing S3D:  ggl_chr.s3d Skip Images:  true
+Processing WLD file - ggl_chr.wld
+Processed - ggl_chr.s3d
+Processing S3D:  glm_chr.s3d Skip Images:  true
+Processing WLD file - glm_chr.wld
+Processed - glm_chr.s3d
+Processing S3D:  global2_chr.s3d Skip Images:  true
+Processing WLD file - global2_chr.wld
+Processed - global2_chr.s3d
+Processing S3D:  global3_chr.s3d Skip Images:  true
+Processed - global3_chr.s3d
+Processing S3D:  global4_chr.s3d Skip Images:  true
+Processing WLD file - global4_chr.wld
+Processed - global4_chr.s3d
+Processing S3D:  global5_chr.s3d Skip Images:  true
+Processing WLD file - global5_chr.wld
+Processed - global5_chr.s3d
+Processing S3D:  global6_chr.s3d Skip Images:  true
+Processing WLD file - global6_chr.wld
+Processed - global6_chr.s3d
+Processing S3D:  global7_chr.s3d Skip Images:  true
+Processing WLD file - global7_chr.wld
+Processed - global7_chr.s3d
+Processing S3D:  global_chr.s3d Skip Images:  true
+Processing WLD file - global_chr.wld
+Processed - global_chr.s3d
+Processing S3D:  globalbaf_chr.s3d Skip Images:  true
+Processing WLD file - globalbaf_chr.wld
+Processed - globalbaf_chr.s3d
+Processing S3D:  globalbam_chr.s3d Skip Images:  true
+Processing WLD file - globalbam_chr.wld
+Processed - globalbam_chr.s3d
+Processing S3D:  globaldaf_chr.s3d Skip Images:  true
+Processing WLD file - globaldaf_chr.wld
+Processed - globaldaf_chr.s3d
+Processing S3D:  globaldam_chr.s3d Skip Images:  true
+Processing WLD file - globaldam_chr.wld
+Processed - globaldam_chr.s3d
+Processing S3D:  globaldwf_chr.s3d Skip Images:  true
+Processing WLD file - globaldwf_chr.wld
+Processed - globaldwf_chr.s3d
+Processing S3D:  globaldwm_chr.s3d Skip Images:  true
+Processing WLD file - globaldwm_chr.wld
+Processed - globaldwm_chr.s3d
+Processing S3D:  globalelf_chr.s3d Skip Images:  true
+Processing WLD file - globalelf_chr.wld
+Processed - globalelf_chr.s3d
+Processing S3D:  globalelm_chr.s3d Skip Images:  true
+Processing WLD file - globalelm_chr.wld
+Processed - globalelm_chr.s3d
+Processing S3D:  globalerf_chr.s3d Skip Images:  true
+Processing WLD file - globalerf_chr.wld
+Processed - globalerf_chr.s3d
+Processing S3D:  globalerm_chr.s3d Skip Images:  true
+Processing WLD file - globalerm_chr.wld
+Processed - globalerm_chr.s3d
+Processing S3D:  globalfroglok_chr.s3d Skip Images:  true
+Processing WLD file - globalfroglok_chr.wld
+Processed - globalfroglok_chr.s3d
+Processing S3D:  globalgnf_chr.s3d Skip Images:  true
+Processing WLD file - globalgnf_chr.wld
+Processed - globalgnf_chr.s3d
+Processing S3D:  globalgnm_chr.s3d Skip Images:  true
+Processing WLD file - globalgnm_chr.wld
+Processed - globalgnm_chr.s3d
+Processing S3D:  globalhaf_chr.s3d Skip Images:  true
+Processing WLD file - globalhaf_chr.wld
+Processed - globalhaf_chr.s3d
+Processing S3D:  globalham_chr.s3d Skip Images:  true
+Processing WLD file - globalham_chr.wld
+Processed - globalham_chr.s3d
+Processing S3D:  globalhif_chr.s3d Skip Images:  true
+Processing WLD file - globalhif_chr.wld
+Processed - globalhif_chr.s3d
+Processing S3D:  globalhim_chr.s3d Skip Images:  true
+Processing WLD file - globalhim_chr.wld
+Processed - globalhim_chr.s3d
+Processing S3D:  globalhof_chr.s3d Skip Images:  true
+Processing WLD file - globalhof_chr.wld
+Processed - globalhof_chr.s3d
+Processing S3D:  globalhom_chr.s3d Skip Images:  true
+Processing WLD file - globalhom_chr.wld
+Processed - globalhom_chr.s3d
+Processing S3D:  globalhuf_chr.s3d Skip Images:  true
+Processing WLD file - globalhuf_chr.wld
+Processed - globalhuf_chr.s3d
+Processing S3D:  globalhum_chr.s3d Skip Images:  true
+Processing WLD file - globalhum_chr.wld
+Processed - globalhum_chr.s3d
+Processing S3D:  globalikf_chr.s3d Skip Images:  true
+Processing WLD file - globalikf_chr.wld
+Processed - globalikf_chr.s3d
+Processing S3D:  globalikm_chr.s3d Skip Images:  true
+Processing WLD file - globalikm_chr.wld
+Processed - globalikm_chr.s3d
+Processing S3D:  globalkef_chr.s3d Skip Images:  true
+Processing WLD file - globalkef_chr.wld
+Processed - globalkef_chr.s3d
+Processing S3D:  globalkem_chr.s3d Skip Images:  true
+Processing WLD file - globalkem_chr.wld
+Processed - globalkem_chr.s3d
+Processing S3D:  globalogf_chr.s3d Skip Images:  true
+Processing WLD file - globalogf_chr.wld
+Processed - globalogf_chr.s3d
+Processing S3D:  globalogm_chr.s3d Skip Images:  true
+Processing WLD file - globalogm_chr.wld
+Processed - globalogm_chr.s3d
+Processing S3D:  globalpcfroglok_chr.s3d Skip Images:  true
+Processing WLD file - globalpcfroglok_chr.wld
+Processed - globalpcfroglok_chr.s3d
+Processing S3D:  globaltrf_chr.s3d Skip Images:  true
+Processing WLD file - globaltrf_chr.wld
+Processed - globaltrf_chr.s3d
+Processing S3D:  globaltrm_chr.s3d Skip Images:  true
+Processing WLD file - globaltrm_chr.wld
+Processed - globaltrm_chr.s3d
+Processing S3D:  goo_chr.s3d Skip Images:  true
+Processing WLD file - goo_chr.wld
+Processed - goo_chr.s3d
+Processing S3D:  gpf_chr.s3d Skip Images:  true
+Processing WLD file - gpf_chr.wld
+Processed - gpf_chr.s3d
+Processing S3D:  gpm_chr.s3d Skip Images:  true
+Processing WLD file - gpm_chr.wld
+Processed - gpm_chr.s3d
+Processing S3D:  greatdivide_chr.s3d Skip Images:  true
+Processing WLD file - greatdivide_chr.wld
+Processed - greatdivide_chr.s3d
+Processing S3D:  gri_chr.s3d Skip Images:  true
+Processing WLD file - gri_chr.wld
+Processed - gri_chr.s3d
+Processing S3D:  griegsend_chr.s3d Skip Images:  true
+Processing WLD file - griegsend_chr.wld
+Processed - griegsend_chr.s3d
+Processing S3D:  grimling_chr.s3d Skip Images:  true
+Processing WLD file - grimling_chr.wld
+Processed - grimling_chr.s3d
+Processing S3D:  grobb_chr.s3d Skip Images:  true
+Processing WLD file - grobb_chr.wld
+Processed - grobb_chr.s3d
+Processing S3D:  growthplane2_chr.s3d Skip Images:  true
+Processing WLD file - growthplane2_chr.wld
+Processed - growthplane2_chr.s3d
+Processing S3D:  growthplane_chr.s3d Skip Images:  true
+Processing WLD file - growthplane_chr.wld
+Processed - growthplane_chr.s3d
+Processing S3D:  gtd_chr.s3d Skip Images:  true
+Processing WLD file - gtd_chr.wld
+Processed - gtd_chr.s3d
+Processing S3D:  gukbottom_chr.s3d Skip Images:  true
+Processing WLD file - gukbottom_chr.wld
+Processed - gukbottom_chr.s3d
+Processing S3D:  guktop_chr.s3d Skip Images:  true
+Processing WLD file - guktop_chr.wld
+Processed - guktop_chr.s3d
+Processing S3D:  gunthak_chr.s3d Skip Images:  true
+Processing WLD file - gunthak_chr.wld
+Processed - gunthak_chr.s3d
+Processing S3D:  gvk_chr.s3d Skip Images:  true
+Processing WLD file - gvk_chr.wld
+Processed - gvk_chr.s3d
+Processing S3D:  halas_chr.s3d Skip Images:  true
+Processing WLD file - halas_chr.wld
+Processed - halas_chr.s3d
+Processing S3D:  hateplane_chr.s3d Skip Images:  true
+Processing WLD file - hateplane_chr.wld
+Processed - hateplane_chr.s3d
+Processing S3D:  hateplaneb_chr.s3d Skip Images:  true
+Processing WLD file - hateplaneb_chr.wld
+Processed - hateplaneb_chr.s3d
+Processing S3D:  hatesfury_chr.s3d Skip Images:  true
+Processing WLD file - hatesfury_chr.wld
+Processed - hatesfury_chr.s3d
+Processing S3D:  highkeep_chr.s3d Skip Images:  true
+Processing WLD file - highkeep_chr.wld
+Processed - highkeep_chr.s3d
+Processing S3D:  highpass_chr.s3d Skip Images:  true
+Processing WLD file - highpass_chr.wld
+Processed - highpass_chr.s3d
+Processing S3D:  hohonora_chr.s3d Skip Images:  true
+Processing WLD file - hohonora_chr.wld
+Processed - hohonora_chr.s3d
+Processing S3D:  hohonorb_chr.s3d Skip Images:  true
+Processing WLD file - hohonorb_chr.wld
+Processed - hohonorb_chr.s3d
+Processing S3D:  hole_chr.s3d Skip Images:  true
+Processing WLD file - hole_chr.wld
+Processed - hole_chr.s3d
+Processing S3D:  hollowshade_chr.s3d Skip Images:  true
+Processing WLD file - hollowshade_chr.wld
+Processed - hollowshade_chr.s3d
+Processing S3D:  hpf_chr.s3d Skip Images:  true
+Processing WLD file - hpf_chr.wld
+Processed - hpf_chr.s3d
+Processing S3D:  hpm_chr.s3d Skip Images:  true
+Processing WLD file - hpm_chr.wld
+Processed - hpm_chr.s3d
+Processing S3D:  hss_chr.s3d Skip Images:  true
+Processing WLD file - hss_chr.wld
+Processed - hss_chr.s3d
+Processing S3D:  ibr_chr.s3d Skip Images:  true
+Processed - ibr_chr.s3d
+Processing S3D:  iceclad_chr.s3d Skip Images:  true
+Processing WLD file - iceclad_chr.wld
+Processed - iceclad_chr.s3d
+Processing S3D:  icy_chr.s3d Skip Images:  true
+Processed - icy_chr.s3d
+Processing S3D:  iec_chr.s3d Skip Images:  true
+Processing WLD file - iec_chr.wld
+Processed - iec_chr.s3d
+Processing S3D:  ifc_chr.s3d Skip Images:  true
+Processed - ifc_chr.s3d
+Processing S3D:  ihu_chr.s3d Skip Images:  true
+Processed - ihu_chr.s3d
+Processing S3D:  ila_chr.s3d Skip Images:  true
+Processing WLD file - ila_chr.wld
+Processed - ila_chr.s3d
+Processing S3D:  ilb_chr.s3d Skip Images:  true
+Processing WLD file - ilb_chr.wld
+Processed - ilb_chr.s3d
+Processing S3D:  innothule_chr.s3d Skip Images:  true
+Processing WLD file - innothule_chr.wld
+Processed - innothule_chr.s3d
+Processing S3D:  isb_chr.s3d Skip Images:  true
+Processed - isb_chr.s3d
+Processing S3D:  ise_chr.s3d Skip Images:  true
+Processed - ise_chr.s3d
+Processing S3D:  iwf_chr.s3d Skip Images:  true
+Processing WLD file - iwf_chr.wld
+Processed - iwf_chr.s3d
+Processing S3D:  iwh_chr.s3d Skip Images:  true
+Processed - iwh_chr.s3d
+Processing S3D:  iwm_chr.s3d Skip Images:  true
+Processing WLD file - iwm_chr.wld
+Processed - iwm_chr.s3d
+Processing S3D:  izf_chr.s3d Skip Images:  true
+Processing WLD file - izf_chr.wld
+Processed - izf_chr.s3d
+Processing S3D:  izm_chr.s3d Skip Images:  true
+Processing WLD file - izm_chr.wld
+Processed - izm_chr.s3d
+Processing S3D:  jaggedpine_chr.s3d Skip Images:  true
+Processing WLD file - jaggedpine_chr.wld
+Processed - jaggedpine_chr.s3d
+Processing S3D:  jkr_chr.s3d Skip Images:  true
+Processing WLD file - jkr_chr.wld
+Processed - jkr_chr.s3d
+Processing S3D:  kael_chr.s3d Skip Images:  true
+Processing WLD file - kael_chr.wld
+Processed - kael_chr.s3d
+Processing S3D:  kaelshard_chr.s3d Skip Images:  true
+Processing WLD file - kaelshard_chr.wld
+Processed - kaelshard_chr.s3d
+Processing S3D:  kaesora_chr.s3d Skip Images:  true
+Processing WLD file - kaesora_chr.wld
+Processed - kaesora_chr.s3d
+Processing S3D:  kaladima_chr.s3d Skip Images:  true
+Processing WLD file - kaladima_chr.wld
+Processed - kaladima_chr.s3d
+Processing S3D:  kaladimb_chr.s3d Skip Images:  true
+Processing WLD file - kaladimb_chr.wld
+Processed - kaladimb_chr.s3d
+Processing S3D:  karnor_chr.s3d Skip Images:  true
+Processing WLD file - karnor_chr.wld
+Processed - karnor_chr.s3d
+Processing S3D:  katta_chr.s3d Skip Images:  true
+Processing WLD file - katta_chr.wld
+Processed - katta_chr.s3d
+Processing S3D:  kedge_chr.s3d Skip Images:  true
+Processing WLD file - kedge_chr.wld
+Processed - kedge_chr.s3d
+Processing S3D:  kerraridge_chr.s3d Skip Images:  true
+Processing WLD file - kerraridge_chr.wld
+Processed - kerraridge_chr.s3d
+Processing S3D:  kgo_chr.s3d Skip Images:  true
+Processing WLD file - kgo_chr.wld
+Processed - kgo_chr.s3d
+Processing S3D:  kithicor_chr.s3d Skip Images:  true
+Processing WLD file - kithicor_chr.wld
+Processed - kithicor_chr.s3d
+Processing S3D:  kob_chr.s3d Skip Images:  true
+Processing WLD file - kob_chr.wld
+Processed - kob_chr.s3d
+Processing S3D:  krk_chr.s3d Skip Images:  true
+Processing WLD file - krk_chr.wld
+Processed - krk_chr.s3d
+Processing S3D:  kurn_chr.s3d Skip Images:  true
+Processing WLD file - kurn_chr.wld
+Processed - kurn_chr.s3d
+Processing S3D:  l01_chr.s3d Skip Images:  true
+Processing WLD file - l01_chr.wld
+Processed - l01_chr.s3d
+Processing S3D:  lakeofillomen_chr.s3d Skip Images:  true
+Processing WLD file - lakeofillomen_chr.wld
+Processed - lakeofillomen_chr.s3d
+Processing S3D:  lakerathe_chr.s3d Skip Images:  true
+Processing WLD file - lakerathe_chr.wld
+Processed - lakerathe_chr.s3d
+Processing S3D:  lavastorm_chr.s3d Skip Images:  true
+Processing WLD file - lavastorm_chr.wld
+Processed - lavastorm_chr.s3d
+Processing S3D:  letalis_chr.s3d Skip Images:  true
+Processing WLD file - letalis_chr.wld
+Processed - letalis_chr.s3d
+Processing S3D:  lfaydark_chr.s3d Skip Images:  true
+Processing WLD file - lfaydark_chr.wld
+Processed - lfaydark_chr.s3d
+Processing S3D:  lga_chr.s3d Skip Images:  true
+Processing WLD file - lga_chr.wld
+Processed - lga_chr.s3d
+Processing S3D:  lgr_chr.s3d Skip Images:  true
+Processing WLD file - lgr_chr.wld
+Processed - lgr_chr.s3d
+Processing S3D:  liz_chr.s3d Skip Images:  true
+Processing WLD file - liz_chr.wld
+Processed - liz_chr.s3d
+Processing S3D:  lmf_chr.s3d Skip Images:  true
+Processing WLD file - lmf_chr.wld
+Processed - lmf_chr.s3d
+Processing S3D:  lmm_chr.s3d Skip Images:  true
+Processing WLD file - lmm_chr.wld
+Processed - lmm_chr.s3d
+Processing S3D:  lug_chr.s3d Skip Images:  true
+Processing WLD file - lug_chr.wld
+Processed - lug_chr.s3d
+Processing S3D:  luj_chr.s3d Skip Images:  true
+Processing WLD file - luj_chr.wld
+Processed - luj_chr.s3d
+Processing S3D:  maiden_chr.s3d Skip Images:  true
+Processing WLD file - maiden_chr.wld
+Processed - maiden_chr.s3d
+Processing S3D:  mal_chr.s3d Skip Images:  true
+Processing WLD file - mal_chr.wld
+Processed - mal_chr.s3d
+Processing S3D:  mep_chr.s3d Skip Images:  true
+Processing WLD file - mep_chr.wld
+Processed - mep_chr.s3d
+Processing S3D:  mim_chr.s3d Skip Images:  true
+Processing WLD file - mim_chr.wld
+Processed - mim_chr.s3d
+Processing S3D:  mischiefplane_chr.s3d Skip Images:  true
+Processing WLD file - mischiefplane_chr.wld
+Processed - mischiefplane_chr.s3d
+Processing S3D:  mistmoore_chr.s3d Skip Images:  true
+Processing WLD file - mistmoore_chr.wld
+Processed - mistmoore_chr.s3d
+Processing S3D:  misty_chr.s3d Skip Images:  true
+Processing WLD file - misty_chr.wld
+Processed - misty_chr.s3d
+Processing S3D:  mmf_chr.s3d Skip Images:  true
+Processing WLD file - mmf_chr.wld
+Processed - mmf_chr.s3d
+Processing S3D:  mmm_chr.s3d Skip Images:  true
+Processing WLD file - mmm_chr.wld
+Processed - mmm_chr.s3d
+Processing S3D:  mmv_chr.s3d Skip Images:  true
+Processing WLD file - mmv_chr.wld
+Processed - mmv_chr.s3d
+Processing S3D:  mmy_chr.s3d Skip Images:  true
+Processing WLD file - mmy_chr.wld
+Processed - mmy_chr.s3d
+Processing S3D:  moi_chr.s3d Skip Images:  true
+Processing WLD file - moi_chr.wld
+Processed - moi_chr.s3d
+Processing S3D:  mos_chr.s3d Skip Images:  true
+Processing WLD file - mos_chr.wld
+Processed - mos_chr.s3d
+Processing S3D:  mseru_chr.s3d Skip Images:  true
+Processing WLD file - mseru_chr.wld
+Processed - mseru_chr.s3d
+Processing S3D:  mtc_chr.s3d Skip Images:  true
+Processing WLD file - mtc_chr.wld
+Processed - mtc_chr.s3d
+Processing S3D:  muh_chr.s3d Skip Images:  true
+Processing WLD file - muh_chr.wld
+Processed - muh_chr.s3d
+Processing S3D:  najena_chr.s3d Skip Images:  true
+Processing WLD file - najena_chr.wld
+Processed - najena_chr.s3d
+Processing S3D:  necropolis2_chr.s3d Skip Images:  true
+Processing WLD file - necropolis2_chr.wld
+Processed - necropolis2_chr.s3d
+Processing S3D:  necropolis_chr.s3d Skip Images:  true
+Processing WLD file - necropolis_chr.wld
+Processed - necropolis_chr.s3d
+Processing S3D:  nektulos_chr.s3d Skip Images:  true
+Processing WLD file - nektulos_chr.wld
+Processed - nektulos_chr.s3d
+Processing S3D:  neriaka_chr.s3d Skip Images:  true
+Processing WLD file - neriaka_chr.wld
+Processed - neriaka_chr.s3d
+Processing S3D:  neriakb_chr.s3d Skip Images:  true
+Processing WLD file - neriakb_chr.wld
+Processed - neriakb_chr.s3d
+Processing S3D:  neriakc_chr.s3d Skip Images:  true
+Processing WLD file - neriakc_chr.wld
+Processed - neriakc_chr.s3d
+Processing S3D:  netherbian_chr.s3d Skip Images:  true
+Processing WLD file - netherbian_chr.wld
+Processed - netherbian_chr.s3d
+Processing S3D:  nexus_chr.s3d Skip Images:  true
+Processing WLD file - nexus_chr.wld
+Processed - nexus_chr.s3d
+Processing S3D:  nightmareb_chr.s3d Skip Images:  true
+Processing WLD file - nightmareb_chr.wld
+Processed - nightmareb_chr.s3d
+Processing S3D:  nin_chr.s3d Skip Images:  true
+Processing WLD file - nin_chr.wld
+Processed - nin_chr.s3d
+Processing S3D:  nmh_chr.s3d Skip Images:  true
+Processing WLD file - nmh_chr.wld
+Processed - nmh_chr.s3d
+Processing S3D:  northkarana_chr.s3d Skip Images:  true
+Processing WLD file - northkarana_chr.wld
+Processed - northkarana_chr.s3d
+Processing S3D:  nro2_chr.s3d Skip Images:  true
+Processing WLD file - nro2_chr.wld
+Processed - nro2_chr.s3d
+Processing S3D:  nro_chr.s3d Skip Images:  true
+Processing WLD file - nro_chr.wld
+Processed - nro_chr.s3d
+Processing S3D:  nurga_chr.s3d Skip Images:  true
+Processing WLD file - nurga_chr.wld
+Processed - nurga_chr.s3d
+Processing S3D:  nyd_chr.s3d Skip Images:  true
+Processing WLD file - nyd_chr.wld
+Processed - nyd_chr.s3d
+Processing S3D:  nym_chr.s3d Skip Images:  true
+Processing WLD file - nym_chr.wld
+Processed - nym_chr.s3d
+Processing S3D:  oasis_chr.s3d Skip Images:  true
+Processing WLD file - oasis_chr.wld
+Processed - oasis_chr.s3d
+Processing S3D:  oggok_chr.s3d Skip Images:  true
+Processing WLD file - oggok_chr.wld
+Processed - oggok_chr.s3d
+Processing S3D:  oot_chr.s3d Skip Images:  true
+Processing WLD file - oot_chr.wld
+Processed - oot_chr.s3d
+Processing S3D:  opf_chr.s3d Skip Images:  true
+Processing WLD file - opf_chr.wld
+Processed - opf_chr.s3d
+Processing S3D:  opm_chr.s3d Skip Images:  true
+Processing WLD file - opm_chr.wld
+Processed - opm_chr.s3d
+Processing S3D:  overthere_chr.s3d Skip Images:  true
+Processing WLD file - overthere_chr.wld
+Processed - overthere_chr.s3d
+Processing S3D:  paf_chr.s3d Skip Images:  true
+Processing WLD file - paf_chr.wld
+Processed - paf_chr.s3d
+Processing S3D:  paineel_chr.s3d Skip Images:  true
+Processing WLD file - paineel_chr.wld
+Processed - paineel_chr.s3d
+Processing S3D:  paludal_chr.s3d Skip Images:  true
+Processing WLD file - paludal_chr.wld
+Processed - paludal_chr.s3d
+Processing S3D:  paw_chr.s3d Skip Images:  true
+Processing WLD file - paw_chr.wld
+Processed - paw_chr.s3d
+Processing S3D:  pbr_chr.s3d Skip Images:  true
+Processing WLD file - pbr_chr.wld
+Processed - pbr_chr.s3d
+Processing S3D:  permafrost_chr.s3d Skip Images:  true
+Processing WLD file - permafrost_chr.wld
+Processed - permafrost_chr.s3d
+Processing S3D:  poair_chr.s3d Skip Images:  true
+Processing WLD file - poair_chr.wld
+Processed - poair_chr.s3d
+Processing S3D:  podisease_chr.s3d Skip Images:  true
+Processing WLD file - podisease_chr.wld
+Processed - podisease_chr.s3d
+Processing S3D:  poeartha_chr.s3d Skip Images:  true
+Processing WLD file - poeartha_chr.wld
+Processed - poeartha_chr.s3d
+Processing S3D:  poearthb_chr.s3d Skip Images:  true
+Processing WLD file - poearthb_chr.wld
+Processed - poearthb_chr.s3d
+Processing S3D:  pofire_chr.s3d Skip Images:  true
+Processing WLD file - pofire_chr.wld
+Processed - pofire_chr.s3d
+Processing S3D:  poinnovation_chr.s3d Skip Images:  true
+Processing WLD file - poinnovation_chr.wld
+Processed - poinnovation_chr.s3d
+Processing S3D:  pojustice_chr.s3d Skip Images:  true
+Processing WLD file - pojustice_chr.wld
+Processed - pojustice_chr.s3d
+Processing S3D:  poknowledge_chr.s3d Skip Images:  true
+Processing WLD file - poknowledge_chr.wld
+Processed - poknowledge_chr.s3d
+Processing S3D:  ponightmare_chr.s3d Skip Images:  true
+Processing WLD file - ponightmare_chr.wld
+Processed - ponightmare_chr.s3d
+Processing S3D:  postorms_chr.s3d Skip Images:  true
+Processing WLD file - postorms_chr.wld
+Processed - postorms_chr.s3d
+Processing S3D:  potactics_chr.s3d Skip Images:  true
+Processing WLD file - potactics_chr.wld
+Processed - potactics_chr.s3d
+Processing S3D:  potimea_chr.s3d Skip Images:  true
+Processing WLD file - potimea_chr.wld
+Processed - potimea_chr.s3d
+Processing S3D:  potimeb_chr.s3d Skip Images:  true
+Processing WLD file - potimeb_chr.wld
+Processed - potimeb_chr.s3d
+Processing S3D:  potorment_chr.s3d Skip Images:  true
+Processing WLD file - potorment_chr.wld
+Processed - potorment_chr.s3d
+Processing S3D:  povalor_chr.s3d Skip Images:  true
+Processing WLD file - povalor_chr.wld
+Processed - povalor_chr.s3d
+Processing S3D:  powater_chr.s3d Skip Images:  true
+Processing WLD file - powater_chr.wld
+Processed - powater_chr.s3d
+Processing S3D:  pri_chr.s3d Skip Images:  true
+Processing WLD file - pri_chr.wld
+Processed - pri_chr.s3d
+Processing S3D:  pum_chr.s3d Skip Images:  true
+Processing WLD file - pum_chr.wld
+Processed - pum_chr.s3d
+Processing S3D:  pus_chr.s3d Skip Images:  true
+Processing WLD file - pus_chr.wld
+Processed - pus_chr.s3d
+Processing S3D:  qcat_chr.s3d Skip Images:  true
+Processing WLD file - qcat_chr.wld
+Processed - qcat_chr.s3d
+Processing S3D:  qey2hh1_chr.s3d Skip Images:  true
+Processing WLD file - qey2hh1_chr.wld
+Processed - qey2hh1_chr.s3d
+Processing S3D:  qeynos2_chr.s3d Skip Images:  true
+Processing WLD file - qeynos2_chr.wld
+Processed - qeynos2_chr.s3d
+Processing S3D:  qeynos_chr.s3d Skip Images:  true
+Processing WLD file - qeynos_chr.wld
+Processed - qeynos_chr.s3d
+Processing S3D:  qeytoqrg_chr.s3d Skip Images:  true
+Processing WLD file - qeytoqrg_chr.wld
+Processed - qeytoqrg_chr.s3d
+Processing S3D:  qrg_chr.s3d Skip Images:  true
+Processing WLD file - qrg_chr.wld
+Processed - qrg_chr.s3d
+Processing S3D:  rak_chr.s3d Skip Images:  true
+Processing WLD file - rak_chr.wld
+Processed - rak_chr.s3d
+Processing S3D:  rap_chr.s3d Skip Images:  true
+Processing WLD file - rap_chr.wld
+Processed - rap_chr.s3d
+Processing S3D:  rathemtn_chr.s3d Skip Images:  true
+Processing WLD file - rathemtn_chr.wld
+Processed - rathemtn_chr.s3d
+Processing S3D:  rea_chr.s3d Skip Images:  true
+Processing WLD file - rea_chr.wld
+Processed - rea_chr.s3d
+Processing S3D:  rem_chr.s3d Skip Images:  true
+Processing WLD file - rem_chr.wld
+Processed - rem_chr.s3d
+Processing S3D:  rgm_chr.s3d Skip Images:  true
+Processing WLD file - rgm_chr.wld
+Processed - rgm_chr.s3d
+Processing S3D:  rif_chr.s3d Skip Images:  true
+Processing WLD file - rif_chr.wld
+Processed - rif_chr.s3d
+Processing S3D:  rivervale_chr.s3d Skip Images:  true
+Processing WLD file - rivervale_chr.wld
+Processed - rivervale_chr.s3d
+Processing S3D:  roe_chr.s3d Skip Images:  true
+Processing WLD file - roe_chr.wld
+Processed - roe_chr.s3d
+Processing S3D:  rom_chr.s3d Skip Images:  true
+Processing WLD file - rom_chr.wld
+Processed - rom_chr.s3d
+Processing S3D:  runnyeye_chr.s3d Skip Images:  true
+Processing WLD file - runnyeye_chr.wld
+Processed - runnyeye_chr.s3d
+Processing S3D:  scarlet_chr.s3d Skip Images:  true
+Processing WLD file - scarlet_chr.wld
+Processed - scarlet_chr.s3d
+Processing S3D:  scr_chr.s3d Skip Images:  true
+Processing WLD file - scr_chr.wld
+Processed - scr_chr.s3d
+Processing S3D:  sdc_chr.s3d Skip Images:  true
+Processing WLD file - sdc_chr.wld
+Processed - sdc_chr.s3d
+Processing S3D:  sdf_chr.s3d Skip Images:  true
+Processing WLD file - sdf_chr.wld
+Processed - sdf_chr.s3d
+Processing S3D:  sdm_chr.s3d Skip Images:  true
+Processing WLD file - sdm_chr.wld
+Processed - sdm_chr.s3d
+Processing S3D:  sebilis_chr.s3d Skip Images:  true
+Processing WLD file - sebilis_chr.wld
+Processed - sebilis_chr.s3d
+Processing S3D:  sed_chr.s3d Skip Images:  true
+Processing WLD file - sed_chr.wld
+Processed - sed_chr.s3d
+Processing S3D:  sef_chr.s3d Skip Images:  true
+Processing WLD file - sef_chr.wld
+Processed - sef_chr.s3d
+Processing S3D:  sem_chr.s3d Skip Images:  true
+Processing WLD file - sem_chr.wld
+Processed - sem_chr.s3d
+Processing S3D:  sgr_chr.s3d Skip Images:  true
+Processing WLD file - sgr_chr.wld
+Processed - sgr_chr.s3d
+Processing S3D:  shadeweaver_chr.s3d Skip Images:  true
+Processing WLD file - shadeweaver_chr.wld
+Processed - shadeweaver_chr.s3d
+Processing S3D:  shadowhaven_chr.s3d Skip Images:  true
+Processing WLD file - shadowhaven_chr.wld
+Processed - shadowhaven_chr.s3d
+Processing S3D:  sharvahl_chr.s3d Skip Images:  true
+Processing WLD file - sharvahl_chr.wld
+Processed - sharvahl_chr.s3d
+Processing S3D:  shm_chr.s3d Skip Images:  true
+Processing WLD file - shm_chr.wld
+Processed - shm_chr.s3d
+Processing S3D:  shp_chr.s3d Skip Images:  true
+Processing WLD file - shp_chr.wld
+Processed - shp_chr.s3d
+Processing S3D:  shr_chr.s3d Skip Images:  true
+Processing WLD file - shr_chr.wld
+Processed - shr_chr.s3d
+Processing S3D:  sif_chr.s3d Skip Images:  true
+Processing WLD file - sif_chr.wld
+Processed - sif_chr.s3d
+Processing S3D:  sim_chr.s3d Skip Images:  true
+Processing WLD file - sim_chr.wld
+Processed - sim_chr.s3d
+Processing S3D:  sir_chr.s3d Skip Images:  true
+Processing WLD file - sir_chr.wld
+Processed - sir_chr.s3d
+Processing S3D:  sirens_chr.s3d Skip Images:  true
+Processing WLD file - sirens_chr.wld
+Processed - sirens_chr.s3d
+Processing S3D:  skb_chr.s3d Skip Images:  true
+Processing WLD file - skb_chr.wld
+Processed - skb_chr.s3d
+Processing S3D:  skn_chr.s3d Skip Images:  true
+Processing WLD file - skn_chr.wld
+Processed - skn_chr.s3d
+Processing S3D:  skt_chr.s3d Skip Images:  true
+Processing WLD file - skt_chr.wld
+Processed - skt_chr.s3d
+Processing S3D:  skyfire_chr.s3d Skip Images:  true
+Processing WLD file - skyfire_chr.wld
+Processed - skyfire_chr.s3d
+Processing S3D:  skyshrine2_chr.s3d Skip Images:  true
+Processing WLD file - skyshrine2_chr.wld
+Processed - skyshrine2_chr.s3d
+Processing S3D:  skyshrine_chr.s3d Skip Images:  true
+Processing WLD file - skyshrine_chr.wld
+Processed - skyshrine_chr.s3d
+Processing S3D:  sleeper2_chr.s3d Skip Images:  true
+Processing WLD file - sleeper2_chr.wld
+Processed - sleeper2_chr.s3d
+Processing S3D:  sleeper_chr.s3d Skip Images:  true
+Processing WLD file - sleeper_chr.wld
+Processed - sleeper_chr.s3d
+Processing S3D:  snn_chr.s3d Skip Images:  true
+Processing WLD file - snn_chr.wld
+Processed - snn_chr.s3d
+Processing S3D:  soldunga_chr.s3d Skip Images:  true
+Processing WLD file - soldunga_chr.wld
+Processed - soldunga_chr.s3d
+Processing S3D:  soldungb_chr.s3d Skip Images:  true
+Processing WLD file - soldungb_chr.wld
+Processed - soldungb_chr.s3d
+Processing S3D:  solrotower_chr.s3d Skip Images:  true
+Processing WLD file - solrotower_chr.wld
+Processed - solrotower_chr.s3d
+Processing S3D:  soltemple_chr.s3d Skip Images:  true
+Processing WLD file - soltemple_chr.wld
+Processed - soltemple_chr.s3d
+Processing S3D:  southkarana_chr.s3d Skip Images:  true
+Processing WLD file - southkarana_chr.wld
+Processed - southkarana_chr.s3d
+Processing S3D:  spd_chr.s3d Skip Images:  true
+Processing WLD file - spd_chr.wld
+Processed - spd_chr.s3d
+Processing S3D:  sro_chr.s3d Skip Images:  true
+Processing WLD file - sro_chr.wld
+Processed - sro_chr.s3d
+Processing S3D:  sseru_chr.s3d Skip Images:  true
+Processing WLD file - sseru_chr.wld
+Processed - sseru_chr.s3d
+Processing S3D:  ssratemple_chr.s3d Skip Images:  true
+Processing WLD file - ssratemple_chr.wld
+Processed - ssratemple_chr.s3d
+Processing S3D:  steamfont_chr.s3d Skip Images:  true
+Processing WLD file - steamfont_chr.wld
+Processed - steamfont_chr.s3d
+Processing S3D:  stf_chr.s3d Skip Images:  true
+Processing WLD file - stf_chr.wld
+Processed - stf_chr.s3d
+Processing S3D:  stonebrunt_chr.s3d Skip Images:  true
+Processing WLD file - stonebrunt_chr.wld
+Processed - stonebrunt_chr.s3d
+Processing S3D:  str_chr.s3d Skip Images:  true
+Processing WLD file - str_chr.wld
+Processed - str_chr.s3d
+Processing S3D:  stu_chr.s3d Skip Images:  true
+Processing WLD file - stu_chr.wld
+Processed - stu_chr.s3d
+Processing S3D:  swampofnohope_chr.s3d Skip Images:  true
+Processing WLD file - swampofnohope_chr.wld
+Processed - swampofnohope_chr.s3d
+Processing S3D:  syn_chr.s3d Skip Images:  true
+Processing WLD file - syn_chr.wld
+Processed - syn_chr.s3d
+Processing S3D:  tac_chr.s3d Skip Images:  true
+Processed - tac_chr.s3d
+Processing S3D:  tbf_chr.s3d Skip Images:  true
+Processing WLD file - tbf_chr.wld
+Processed - tbf_chr.s3d
+Processing S3D:  tbl_chr.s3d Skip Images:  true
+Processing WLD file - tbl_chr.wld
+Processed - tbl_chr.s3d
+Processing S3D:  tbm_chr.s3d Skip Images:  true
+Processing WLD file - tbm_chr.wld
+Processed - tbm_chr.s3d
+Processing S3D:  tef_chr.s3d Skip Images:  true
+Processing WLD file - tef_chr.wld
+Processed - tef_chr.s3d
+Processing S3D:  tem_chr.s3d Skip Images:  true
+Processing WLD file - tem_chr.wld
+Processed - tem_chr.s3d
+Processing S3D:  templeveeshan_chr.s3d Skip Images:  true
+Processing WLD file - templeveeshan_chr.wld
+Processed - templeveeshan_chr.s3d
+Processing S3D:  ten_chr.s3d Skip Images:  true
+Processing WLD file - ten_chr.wld
+Processed - ten_chr.s3d
+Processing S3D:  tenebrous_chr.s3d Skip Images:  true
+Processing WLD file - tenebrous_chr.wld
+Processed - tenebrous_chr.s3d
+Processing S3D:  tgl_chr.s3d Skip Images:  true
+Processing WLD file - tgl_chr.wld
+Processed - tgl_chr.s3d
+Processing S3D:  thedeep_chr.s3d Skip Images:  true
+Processing WLD file - thedeep_chr.wld
+Processed - thedeep_chr.s3d
+Processing S3D:  thegrey_chr.s3d Skip Images:  true
+Processing WLD file - thegrey_chr.wld
+Processed - thegrey_chr.s3d
+Processing S3D:  thurgadina_chr.s3d Skip Images:  true
+Processing WLD file - thurgadina_chr.wld
+Processed - thurgadina_chr.s3d
+Processing S3D:  thurgadinb2_chr.s3d Skip Images:  true
+Processing WLD file - thurgadinb2_chr.wld
+Processed - thurgadinb2_chr.s3d
+Processing S3D:  thurgadinb_2_chr.s3d Skip Images:  true
+Processing WLD file - thurgadinb_2_chr.wld
+Processed - thurgadinb_2_chr.s3d
+Processing S3D:  thurgadinb_chr.s3d Skip Images:  true
+Processing WLD file - thurgadinb_chr.wld
+Processed - thurgadinb_chr.s3d
+Processing S3D:  timorous2_chr.s3d Skip Images:  true
+Processing WLD file - timorous2_chr.wld
+Processed - timorous2_chr.s3d
+Processing S3D:  timorous_chr.s3d Skip Images:  true
+Processing WLD file - timorous_chr.wld
+Processed - timorous_chr.s3d
+Processing S3D:  tmb_chr.s3d Skip Images:  true
+Processed - tmb_chr.s3d
+Processing S3D:  tmt_chr.s3d Skip Images:  true
+Processing WLD file - tmt_chr.wld
+Processed - tmt_chr.s3d
+Processing S3D:  tnf_chr.s3d Skip Images:  true
+Processing WLD file - tnf_chr.wld
+Processed - tnf_chr.s3d
+Processing S3D:  tnm_chr.s3d Skip Images:  true
+Processing WLD file - tnm_chr.wld
+Processed - tnm_chr.s3d
+Processing S3D:  torgiran_chr.s3d Skip Images:  true
+Processing WLD file - torgiran_chr.wld
+Processed - torgiran_chr.s3d
+Processing S3D:  tox_chr.s3d Skip Images:  true
+Processing WLD file - tox_chr.wld
+Processed - tox_chr.s3d
+Processing S3D:  tpb_chr.s3d Skip Images:  true
+Processing WLD file - tpb_chr.wld
+Processed - tpb_chr.s3d
+Processing S3D:  tpo_chr.s3d Skip Images:  true
+Processing WLD file - tpo_chr.wld
+Processed - tpo_chr.s3d
+Processing S3D:  trakanon_chr.s3d Skip Images:  true
+Processing WLD file - trakanon_chr.wld
+Processed - trakanon_chr.s3d
+Processing S3D:  trk_chr.s3d Skip Images:  true
+Processing WLD file - trk_chr.wld
+Processed - trk_chr.s3d
+Processing S3D:  trn_chr.s3d Skip Images:  true
+Processing WLD file - trn_chr.wld
+Processed - trn_chr.s3d
+Processing S3D:  trw_chr.s3d Skip Images:  true
+Processing WLD file - trw_chr.wld
+Processed - trw_chr.s3d
+Processing S3D:  tsm_chr.s3d Skip Images:  true
+Processing WLD file - tsm_chr.wld
+Processed - tsm_chr.s3d
+Processing S3D:  ttb_chr.s3d Skip Images:  true
+Processing WLD file - ttb_chr.wld
+Processed - ttb_chr.s3d
+Processing S3D:  tvp_chr.s3d Skip Images:  true
+Processing WLD file - tvp_chr.wld
+Processed - tvp_chr.s3d
+Processing S3D:  twf_chr.s3d Skip Images:  true
+Processed - twf_chr.s3d
+Processing S3D:  twilight_chr.s3d Skip Images:  true
+Processing WLD file - twilight_chr.wld
+Processed - twilight_chr.s3d
+Processing S3D:  tzf_chr.s3d Skip Images:  true
+Processing WLD file - tzf_chr.wld
+Processed - tzf_chr.s3d
+Processing S3D:  tzm_chr.s3d Skip Images:  true
+Processing WLD file - tzm_chr.wld
+Processed - tzm_chr.s3d
+Processing S3D:  udk_chr.s3d Skip Images:  true
+Processing WLD file - udk_chr.wld
+Processed - udk_chr.s3d
+Processing S3D:  umbral_chr.s3d Skip Images:  true
+Processing WLD file - umbral_chr.wld
+Processed - umbral_chr.s3d
+Processing S3D:  unb_chr.s3d Skip Images:  true
+Processing WLD file - unb_chr.wld
+Processed - unb_chr.s3d
+Processing S3D:  unrest_chr.s3d Skip Images:  true
+Processing WLD file - unrest_chr.wld
+Processed - unrest_chr.s3d
+Processing S3D:  vac_chr.s3d Skip Images:  true
+Processing WLD file - vac_chr.wld
+Processed - vac_chr.s3d
+Processing S3D:  vas_chr.s3d Skip Images:  true
+Processing WLD file - vas_chr.wld
+Processed - vas_chr.s3d
+Processing S3D:  veeshan_chr.s3d Skip Images:  true
+Processing WLD file - veeshan_chr.wld
+Processed - veeshan_chr.s3d
+Processing S3D:  veg_chr.s3d Skip Images:  true
+Processing WLD file - veg_chr.wld
+Processed - veg_chr.s3d
+Processing S3D:  vek_chr.s3d Skip Images:  true
+Processing WLD file - vek_chr.wld
+Processed - vek_chr.s3d
+Processing S3D:  velketor_chr.s3d Skip Images:  true
+Processing WLD file - velketor_chr.wld
+Processed - velketor_chr.s3d
+Processing S3D:  vexthal_chr.s3d Skip Images:  true
+Processing WLD file - vexthal_chr.wld
+Processed - vexthal_chr.s3d
+Processing S3D:  wakening_chr.s3d Skip Images:  true
+Processing WLD file - wakening_chr.wld
+Processed - wakening_chr.s3d
+Processing S3D:  warrens_chr.s3d Skip Images:  true
+Processing WLD file - warrens_chr.wld
+Processed - warrens_chr.s3d
+Processing S3D:  warslikswood_chr.s3d Skip Images:  true
+Processing WLD file - warslikswood_chr.wld
+Processed - warslikswood_chr.s3d
+Processing S3D:  wbu_chr.s3d Skip Images:  true
+Processing WLD file - wbu_chr.wld
+Processed - wbu_chr.s3d
+Processing S3D:  wel_chr.s3d Skip Images:  true
+Processing WLD file - wel_chr.wld
+Processed - wel_chr.s3d
+Processing S3D:  westwastes_chr.s3d Skip Images:  true
+Processing WLD file - westwastes_chr.wld
+Processed - westwastes_chr.s3d
+Processing S3D:  wmp_chr.s3d Skip Images:  true
+Processing WLD file - wmp_chr.wld
+Processed - wmp_chr.s3d
+Processing S3D:  wof_chr.s3d Skip Images:  true
+Processing WLD file - wof_chr.wld
+Processed - wof_chr.s3d
+Processing S3D:  wrf_chr.s3d Skip Images:  true
+Processing WLD file - wrf_chr.wld
+Processed - wrf_chr.s3d
+Processing S3D:  wuf_chr.s3d Skip Images:  true
+Processing WLD file - wuf_chr.wld
+Processed - wuf_chr.s3d
+Processing S3D:  wyv_chr.s3d Skip Images:  true
+Processing WLD file - wyv_chr.wld
+Processed - wyv_chr.s3d

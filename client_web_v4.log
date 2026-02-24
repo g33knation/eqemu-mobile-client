@@ -1,0 +1,523 @@
+   Compiling MobileClient v0.1.0 (/home/tommy/Desktop/MobileClient)
+error[E0252]: the name `Read` is defined multiple times
+   --> src/packets.rs:268:17
+    |
+  2 | use std::io::Read; // for read_exact
+    |     ------------- previous import of the trait `Read` here
+...
+268 | use binrw::io::{Read, Write};
+    |                 ^^^^--
+    |                 |
+    |                 `Read` reimported here
+    |                 help: remove unnecessary import
+    |
+    = note: `Read` must be defined only once in the type namespace of this module
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/udp_engine.rs:8:5
+  |
+8 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/packets.rs:3:5
+  |
+3 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `Read`
+   --> src/packets.rs:268:17
+    |
+268 | use binrw::io::{Read, Write};
+    |                 ^^^^
+
+warning: unused imports: `Arc` and `Mutex`
+ --> src/web_ui.rs:2:17
+  |
+2 | use std::sync::{Arc, Mutex};
+  |                 ^^^  ^^^^^
+
+warning: unused import: `ClientZoneEntry`
+ --> src/main.rs:9:79
+  |
+9 | use packets::{LoginAppOp, WorldAppOp, ZoneAppOp, LoginBaseMessage, ZoneEntry, ClientZoneEntry, TitaniumCharInfo, SpawnStruct, PlayerProfi...
+  |                                                                               ^^^^^^^^^^^^^^^
+
+warning: unused label
+   --> src/main.rs:426:5
+    |
+426 |     'zone_loop: loop {
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(unused_labels)]` (part of `#[warn(unused)]`) on by default
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:486:45
+    |
+486 |         let gender = reader.read_le::<u32>()?;
+    |                             ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                             |
+    |                             this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:487:43
+    |
+487 |         let race = reader.read_le::<u32>()?;
+    |                           ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                           |
+    |                           this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:488:44
+    |
+488 |         let class = reader.read_le::<u32>()?;
+    |                            ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                            |
+    |                            this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:492:43
+    |
+492 |         let level = reader.read_le::<u8>()?;
+    |                            ---------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                            |
+    |                            this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:498:43
+    |
+498 |         let mana = reader.read_le::<u32>()?;
+    |                           ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                           |
+    |                           this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:499:41
+    |
+499 |         let hp = reader.read_le::<u32>()?;
+    |                         ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                         |
+    |                         this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:552:47
+    |
+552 |         let packed_x = reader.read_le::<u32>()?;
+    |                               ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                               |
+    |                               this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:559:47
+    |
+559 |         let packed_y = reader.read_le::<u32>()?;
+    |                               ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                               |
+    |                               this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:566:47
+    |
+566 |         let packed_z = reader.read_le::<u32>()?;
+    |                               ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                               |
+    |                               this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:573:47
+    |
+573 |         let packed_h = reader.read_le::<u32>()?;
+    |                               ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                               |
+    |                               this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:579:43
+    |
+579 |         let level = reader.read_le::<u8>()?;
+    |                            ---------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                            |
+    |                            this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:583:43
+    |
+583 |         let race = reader.read_le::<u32>()?;
+    |                           ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                           |
+    |                           this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:587:43
+    |
+587 |         let class = reader.read_le::<u8>()?;
+    |                            ---------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                            |
+    |                            this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:591:47
+    |
+591 |         let spawn_id = reader.read_le::<u32>()?;
+    |                               ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                               |
+    |                               this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:595:44
+    |
+595 |         let is_npc = reader.read_le::<u8>()? != 0;
+    |                             ---------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                             |
+    |                             this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:599:44
+    |
+599 |         let cur_hp = reader.read_le::<u8>()?; 
+    |                             ---------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                             |
+    |                             this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:600:44
+    |
+600 |         let max_hp = reader.read_le::<u8>()?;
+    |                             ---------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                             |
+    |                             this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+   --> src/packets.rs:639:47
+    |
+639 |         let spawn_id = reader.read_le::<u16>()?;
+    |                               ----------------^ the trait `From<binrw::Error>` is not implemented for `std::io::Error`
+    |                               |
+    |                               this can't be annotated with `?` because it has type `Result<_, binrw::Error>`
+    |
+    = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+    = help: the following other types implement trait `From<T>`:
+              `std::io::Error` implements `From<AsyncFdTryNewError<T>>`
+              `std::io::Error` implements `From<CompressError>`
+              `std::io::Error` implements `From<DecompressError>`
+              `std::io::Error` implements `From<Elapsed>`
+              `std::io::Error` implements `From<ErrorKind>`
+              `std::io::Error` implements `From<IntoInnerError<W>>`
+              `std::io::Error` implements `From<JoinError>`
+              `std::io::Error` implements `From<NulError>`
+            and 9 others
+
+warning: unreachable statement
+   --> src/main.rs:596:5
+    |
+426 | /     'zone_loop: loop {
+427 | |         let mut buf = [0u8; 8192]; // Larger buffer for PlayerProfile fragments
+428 | |         let (len, src) = zone_socket.recv_from(&mut buf).await?;
+...   |
+594 | |     }
+    | |_____- any code following this expression is unreachable
+595 |
+596 |       println!("\n🏆 Zone connection complete! Character '{}' is now in-world.", char_name_for_zone);
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` (part of `#[warn(unused)]`) on by default
+    = note: this warning originates in the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: value assigned to `selected_server_id` is never read
+   --> src/main.rs:111:13
+    |
+111 |     let mut selected_server_id = 0;
+    |             ^^^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+warning: value assigned to `zone_server_ip` is never read
+   --> src/main.rs:114:13
+    |
+114 |     let mut zone_server_ip = String::new();
+    |             ^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: value assigned to `zone_server_port` is never read
+   --> src/main.rs:115:13
+    |
+115 |     let mut zone_server_port: u16 = 0;
+    |             ^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: variable `got_zone_entry` is assigned to, but never used
+   --> src/main.rs:215:13
+    |
+215 |     let mut got_zone_entry = false;
+    |             ^^^^^^^^^^^^^^
+    |
+    = note: consider using `_got_zone_entry` instead
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: value assigned to `got_zone_entry` is never read
+   --> src/main.rs:344:18
+    |
+344 |                  got_zone_entry = true;
+    |                  ^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: value assigned to `got_zone_entry` is never read
+   --> src/main.rs:362:26
+    |
+362 |                          got_zone_entry = true;
+    |                          ^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: variable `got_world_objects_sent` is assigned to, but never used
+   --> src/main.rs:423:13
+    |
+423 |     let mut got_world_objects_sent = false;
+    |             ^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: consider using `_got_world_objects_sent` instead
+
+warning: value assigned to `got_world_objects_sent` is never read
+   --> src/main.rs:457:17
+    |
+457 |                 got_world_objects_sent = true;
+    |                 ^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: unused variable: `update`
+   --> src/main.rs:531:27
+    |
+531 |                 if let Ok(update) = ClientUpdate::read(&mut reader) {
+    |                           ^^^^^^ help: if this is intentional, prefix it with an underscore: `_update`
+
+warning: unused variable: `state`
+   --> src/main.rs:533:29
+    |
+533 |                     let mut state = zone_state.lock().unwrap();
+    |                             ^^^^^ help: if this is intentional, prefix it with an underscore: `_state`
+
+warning: variable does not need to be mutable
+   --> src/main.rs:533:25
+    |
+533 |                     let mut state = zone_state.lock().unwrap();
+    |                         ----^^^^^
+    |                         |
+    |                         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+Some errors have detailed explanations: E0252, E0277.
+For more information about an error, try `rustc --explain E0252`.
+warning: `MobileClient` (bin "MobileClient") generated 18 warnings
+error: could not compile `MobileClient` (bin "MobileClient") due to 19 previous errors; 18 warnings emitted

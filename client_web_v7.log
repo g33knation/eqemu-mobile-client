@@ -1,0 +1,72 @@
+   Compiling MobileClient v0.1.0 (/home/tommy/Desktop/MobileClient)
+warning: unused import: `async_recursion::async_recursion`
+ --> src/udp_engine.rs:8:5
+  |
+8 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/packets.rs:3:5
+  |
+3 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `Arc` and `Mutex`
+ --> src/web_ui.rs:2:17
+  |
+2 | use std::sync::{Arc, Mutex};
+  |                 ^^^  ^^^^^
+
+warning: unused import: `ClientZoneEntry`
+ --> src/main.rs:9:79
+  |
+9 | use packets::{LoginAppOp, WorldAppOp, ZoneAppOp, LoginBaseMessage, ZoneEntry, ClientZoneEntry, TitaniumCharInfo, SpawnStruct, PlayerProfi...
+  |                                                                               ^^^^^^^^^^^^^^^
+
+warning: unused label
+   --> src/main.rs:433:5
+    |
+433 |     'zone_loop: loop {
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(unused_labels)]` (part of `#[warn(unused)]`) on by default
+
+error[E0308]: mismatched types
+   --> src/main.rs:565:45
+    |
+565 |                      state.update_spawn_pos(update.spawn_id, update.x, update.y, update.z, update.heading);
+    |                            ---------------- ^^^^^^^^^^^^^^^ expected `u32`, found `u16`
+    |                            |
+    |                            arguments to this method are incorrect
+    |
+note: method defined here
+   --> src/zone_state.rs:73:12
+    |
+ 73 |     pub fn update_spawn_pos(&mut self, spawn_id: u32, x: f32, y: f32, z: f32, heading: f32) {
+    |            ^^^^^^^^^^^^^^^^            -------------
+help: you can convert a `u16` to a `u32`
+    |
+565 |                      state.update_spawn_pos(update.spawn_id.into(), update.x, update.y, update.z, update.heading);
+    |                                                            +++++++
+
+warning: unreachable statement
+   --> src/main.rs:585:5
+    |
+433 | /     'zone_loop: loop {
+434 | |         let mut buf = [0u8; 8192]; // Larger buffer for PlayerProfile fragments
+435 | |         let (len, src) = zone_socket.recv_from(&mut buf).await?;
+...   |
+583 | |     }
+    | |_____- any code following this expression is unreachable
+584 |
+585 |       println!("\n🏆 Zone connection complete! Character '{}' is now in-world.", char_name_for_zone);
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` (part of `#[warn(unused)]`) on by default
+    = note: this warning originates in the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0308`.
+warning: `MobileClient` (bin "MobileClient") generated 6 warnings
+error: could not compile `MobileClient` (bin "MobileClient") due to 1 previous error; 6 warnings emitted

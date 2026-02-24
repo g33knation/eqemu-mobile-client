@@ -1,0 +1,16 @@
+GLB Summary for web/assets/models/bam.glb:
+- Total Images: 27
+- Baked (bufferView): 25
+- External (uri): 0
+- Invalid (no bufferView or uri): 2
+
+Example Baked Image: {
+  "name": "bamch0002",
+  "mimeType": "image/png",
+  "bufferView": 0
+}
+BufferView details: {
+  "buffer": 0,
+  "byteOffset": 3615640,
+  "byteLength": 69
+}

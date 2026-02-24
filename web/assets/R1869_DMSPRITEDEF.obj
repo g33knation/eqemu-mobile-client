@@ -1,0 +1,13 @@
+# WLD Mesh R1869_DMSPRITEDEF
+mtllib R1869_DMSPRITEDEF.mtl
+usemtl Material0
+v 291 46 375.5
+v 291 14 375.5
+v 67 14 375.5
+v 67 46 375.5
+vt 0.28125 0.140625
+vt 0.28125 0
+vt -0.71875 0
+vt -0.71875 0.140625
+f 1/1 2/2 3/3
+f 3/3 4/4 1/1

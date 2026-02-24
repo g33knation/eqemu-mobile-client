@@ -1,0 +1,663 @@
+   Compiling MobileClient v0.1.0 (/home/tommy/Desktop/MobileClient)
+error[E0252]: the name `Read` is defined multiple times
+   --> src/packets.rs:268:17
+    |
+  2 | use std::io::Read; // for read_exact
+    |     ------------- previous import of the trait `Read` here
+...
+268 | use binrw::io::{Read, Write};
+    |                 ^^^^--
+    |                 |
+    |                 `Read` reimported here
+    |                 help: remove unnecessary import
+    |
+    = note: `Read` must be defined only once in the type namespace of this module
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/udp_engine.rs:8:5
+  |
+8 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/packets.rs:3:5
+  |
+3 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `Read`
+   --> src/packets.rs:268:17
+    |
+268 | use binrw::io::{Read, Write};
+    |                 ^^^^
+
+warning: unused imports: `Arc` and `Mutex`
+ --> src/web_ui.rs:2:17
+  |
+2 | use std::sync::{Arc, Mutex};
+  |                 ^^^  ^^^^^
+
+warning: unused import: `ClientZoneEntry`
+ --> src/main.rs:9:79
+  |
+9 | use packets::{LoginAppOp, WorldAppOp, ZoneAppOp, LoginBaseMessage, ZoneEntry, ClientZoneEntry, TitaniumCharInfo, SpawnStruct, PlayerProfi...
+  |                                                                               ^^^^^^^^^^^^^^^
+
+warning: unused label
+   --> src/main.rs:426:5
+    |
+426 |     'zone_loop: loop {
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(unused_labels)]` (part of `#[warn(unused)]`) on by default
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:486:29
+    |
+486 |         let gender = reader.read_le::<u32>()?;
+    |                             ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+486 -         let gender = reader.read_le::<u32>()?;
+486 +         let gender = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+486 -         let gender = reader.read_le::<u32>()?;
+486 +         let gender = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:487:27
+    |
+487 |         let race = reader.read_le::<u32>()?;
+    |                           ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+487 -         let race = reader.read_le::<u32>()?;
+487 +         let race = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+487 -         let race = reader.read_le::<u32>()?;
+487 +         let race = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:488:28
+    |
+488 |         let class = reader.read_le::<u32>()?;
+    |                            ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+488 -         let class = reader.read_le::<u32>()?;
+488 +         let class = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+488 -         let class = reader.read_le::<u32>()?;
+488 +         let class = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:492:28
+    |
+492 |         let level = reader.read_le::<u8>()?;
+    |                            ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+492 -         let level = reader.read_le::<u8>()?;
+492 +         let level = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+492 -         let level = reader.read_le::<u8>()?;
+492 +         let level = reader.read_be::<u8>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:498:27
+    |
+498 |         let mana = reader.read_le::<u32>()?;
+    |                           ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+498 -         let mana = reader.read_le::<u32>()?;
+498 +         let mana = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+498 -         let mana = reader.read_le::<u32>()?;
+498 +         let mana = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:499:25
+    |
+499 |         let hp = reader.read_le::<u32>()?;
+    |                         ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+499 -         let hp = reader.read_le::<u32>()?;
+499 +         let hp = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+499 -         let hp = reader.read_le::<u32>()?;
+499 +         let hp = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:552:31
+    |
+552 |         let packed_x = reader.read_le::<u32>()?;
+    |                               ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+552 -         let packed_x = reader.read_le::<u32>()?;
+552 +         let packed_x = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+552 -         let packed_x = reader.read_le::<u32>()?;
+552 +         let packed_x = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:559:31
+    |
+559 |         let packed_y = reader.read_le::<u32>()?;
+    |                               ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+559 -         let packed_y = reader.read_le::<u32>()?;
+559 +         let packed_y = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+559 -         let packed_y = reader.read_le::<u32>()?;
+559 +         let packed_y = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:566:31
+    |
+566 |         let packed_z = reader.read_le::<u32>()?;
+    |                               ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+566 -         let packed_z = reader.read_le::<u32>()?;
+566 +         let packed_z = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+566 -         let packed_z = reader.read_le::<u32>()?;
+566 +         let packed_z = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:573:31
+    |
+573 |         let packed_h = reader.read_le::<u32>()?;
+    |                               ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+573 -         let packed_h = reader.read_le::<u32>()?;
+573 +         let packed_h = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+573 -         let packed_h = reader.read_le::<u32>()?;
+573 +         let packed_h = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:579:28
+    |
+579 |         let level = reader.read_le::<u8>()?;
+    |                            ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+579 -         let level = reader.read_le::<u8>()?;
+579 +         let level = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+579 -         let level = reader.read_le::<u8>()?;
+579 +         let level = reader.read_be::<u8>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:583:27
+    |
+583 |         let race = reader.read_le::<u32>()?;
+    |                           ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+583 -         let race = reader.read_le::<u32>()?;
+583 +         let race = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+583 -         let race = reader.read_le::<u32>()?;
+583 +         let race = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:587:28
+    |
+587 |         let class = reader.read_le::<u8>()?;
+    |                            ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+587 -         let class = reader.read_le::<u8>()?;
+587 +         let class = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+587 -         let class = reader.read_le::<u8>()?;
+587 +         let class = reader.read_be::<u8>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:591:31
+    |
+591 |         let spawn_id = reader.read_le::<u32>()?;
+    |                               ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+591 -         let spawn_id = reader.read_le::<u32>()?;
+591 +         let spawn_id = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+591 -         let spawn_id = reader.read_le::<u32>()?;
+591 +         let spawn_id = reader.read_be::<u32>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:595:29
+    |
+595 |         let is_npc = reader.read_le::<u8>()? != 0;
+    |                             ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+595 -         let is_npc = reader.read_le::<u8>()? != 0;
+595 +         let is_npc = std::io::Cursor<&[u8]>::read_le()? != 0;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+595 -         let is_npc = reader.read_le::<u8>()? != 0;
+595 +         let is_npc = reader.read_be::<u8>()? != 0;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:599:29
+    |
+599 |         let cur_hp = reader.read_le::<u8>()?; 
+    |                             ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+599 -         let cur_hp = reader.read_le::<u8>()?; 
+599 +         let cur_hp = std::io::Cursor<&[u8]>::read_le()?; 
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+599 -         let cur_hp = reader.read_le::<u8>()?; 
+599 +         let cur_hp = reader.read_be::<u8>()?; 
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:600:29
+    |
+600 |         let max_hp = reader.read_le::<u8>()?;
+    |                             ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+600 -         let max_hp = reader.read_le::<u8>()?;
+600 +         let max_hp = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+600 -         let max_hp = reader.read_le::<u8>()?;
+600 +         let max_hp = reader.read_be::<u8>()?;
+    |
+
+error[E0599]: no method named `read_le` found for mutable reference `&mut std::io::Cursor<&[u8]>` in the current scope
+   --> src/packets.rs:639:31
+    |
+639 |         let spawn_id = reader.read_le::<u16>()?;
+    |                               ^^^^^^^ this is an associated function, not a method
+    |
+    = note: found the following associated functions; to be used as methods, functions must have a `self` parameter
+note: the candidate is defined in the trait `BinRead`
+   --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/binrw-0.11.2/src/binread/mod.rs:86:5
+    |
+ 86 | /     fn read_le<R: Read + Seek>(reader: &mut R) -> BinResult<Self>
+ 87 | |     where
+ 88 | |         for<'a> Self::Args<'a>: Required,
+    | |_________________________________________^
+    = help: items from traits can only be used if the trait is in scope
+help: use associated function syntax instead
+    |
+639 -         let spawn_id = reader.read_le::<u16>()?;
+639 +         let spawn_id = std::io::Cursor<&[u8]>::read_le()?;
+    |
+help: trait `BinReaderExt` which provides `read_le` is implemented but not in scope; perhaps you want to import it
+    |
+  1 + use binrw::BinReaderExt;
+    |
+help: there is a method `read_be` with a similar name
+    |
+639 -         let spawn_id = reader.read_le::<u16>()?;
+639 +         let spawn_id = reader.read_be::<u16>()?;
+    |
+
+error[E0308]: mismatched types
+   --> src/main.rs:476:57
+    |
+476 |                 while let Ok(spawn) = SpawnStruct::read(&mut reader) {
+    |                                       ----------------- ^^^^^^^^^^^ expected `&mut Cursor<&[u8]>`, found `&mut Cursor<&Vec<u8>>`
+    |                                       |
+    |                                       arguments to this function are incorrect
+    |
+    = note: expected mutable reference `&mut std::io::Cursor<&[u8]>`
+               found mutable reference `&mut std::io::Cursor<&Vec<u8>>`
+note: associated function defined here
+   --> src/packets.rs:539:12
+    |
+539 |     pub fn read(reader: &mut Cursor<&[u8]>) -> std::io::Result<Self> {
+    |            ^^^^ --------------------------
+
+error[E0308]: mismatched types
+   --> src/main.rs:531:56
+    |
+531 |                 if let Ok(update) = ClientUpdate::read(&mut reader) {
+    |                                     ------------------ ^^^^^^^^^^^ expected `&mut Cursor<&[u8]>`, found `&mut Cursor<&Vec<u8>>`
+    |                                     |
+    |                                     arguments to this function are incorrect
+    |
+    = note: expected mutable reference `&mut std::io::Cursor<&[u8]>`
+               found mutable reference `&mut std::io::Cursor<&Vec<u8>>`
+note: associated function defined here
+   --> src/packets.rs:638:12
+    |
+638 |     pub fn read(reader: &mut Cursor<&[u8]>) -> std::io::Result<Self> {
+    |            ^^^^ --------------------------
+
+error[E0308]: mismatched types
+   --> src/main.rs:542:58
+    |
+542 |                 if let Ok(profile) = PlayerProfile::read(&mut reader) {
+    |                                      ------------------- ^^^^^^^^^^^ expected `&mut Cursor<&[u8]>`, found `&mut Cursor<&Vec<u8>>`
+    |                                      |
+    |                                      arguments to this function are incorrect
+    |
+    = note: expected mutable reference `&mut std::io::Cursor<&[u8]>`
+               found mutable reference `&mut std::io::Cursor<&Vec<u8>>`
+note: associated function defined here
+   --> src/packets.rs:482:12
+    |
+482 |     pub fn read(reader: &mut Cursor<&[u8]>) -> std::io::Result<Self> {
+    |            ^^^^ --------------------------
+
+warning: unreachable statement
+   --> src/main.rs:596:5
+    |
+426 | /     'zone_loop: loop {
+427 | |         let mut buf = [0u8; 8192]; // Larger buffer for PlayerProfile fragments
+428 | |         let (len, src) = zone_socket.recv_from(&mut buf).await?;
+...   |
+594 | |     }
+    | |_____- any code following this expression is unreachable
+595 |
+596 |       println!("\n🏆 Zone connection complete! Character '{}' is now in-world.", char_name_for_zone);
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` (part of `#[warn(unused)]`) on by default
+    = note: this warning originates in the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+Some errors have detailed explanations: E0252, E0308, E0599.
+For more information about an error, try `rustc --explain E0252`.
+warning: `MobileClient` (bin "MobileClient") generated 7 warnings
+error: could not compile `MobileClient` (bin "MobileClient") due to 22 previous errors; 7 warnings emitted

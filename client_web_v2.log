@@ -1,0 +1,132 @@
+   Compiling MobileClient v0.1.0 (/home/tommy/Desktop/MobileClient)
+error[E0412]: cannot find type `Cursor` in this scope
+   --> src/packets.rs:481:30
+    |
+481 |     pub fn read(reader: &mut Cursor<&[u8]>) -> std::io::Result<Self> {
+    |                              ^^^^^^ not found in this scope
+    |
+help: consider importing one of these structs
+    |
+  1 + use crate::Cursor;
+    |
+  1 + use std::collections::btree_map::Cursor;
+    |
+  1 + use std::collections::btree_set::Cursor;
+    |
+  1 + use std::collections::linked_list::Cursor;
+    |
+    = and 3 other candidates
+
+error[E0412]: cannot find type `Cursor` in this scope
+   --> src/packets.rs:538:30
+    |
+538 |     pub fn read(reader: &mut Cursor<&[u8]>) -> std::io::Result<Self> {
+    |                              ^^^^^^ not found in this scope
+    |
+help: consider importing one of these structs
+    |
+  1 + use crate::Cursor;
+    |
+  1 + use std::collections::btree_map::Cursor;
+    |
+  1 + use std::collections::btree_set::Cursor;
+    |
+  1 + use std::collections::linked_list::Cursor;
+    |
+    = and 3 other candidates
+
+error[E0412]: cannot find type `Cursor` in this scope
+   --> src/packets.rs:637:30
+    |
+637 |     pub fn read(reader: &mut Cursor<&[u8]>) -> std::io::Result<Self> {
+    |                              ^^^^^^ not found in this scope
+    |
+help: consider importing one of these structs
+    |
+  1 + use crate::Cursor;
+    |
+  1 + use std::collections::btree_map::Cursor;
+    |
+  1 + use std::collections::btree_set::Cursor;
+    |
+  1 + use std::collections::linked_list::Cursor;
+    |
+    = and 3 other candidates
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/udp_engine.rs:8:5
+  |
+8 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/packets.rs:2:5
+  |
+2 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `Arc` and `Mutex`
+ --> src/web_ui.rs:2:17
+  |
+2 | use std::sync::{Arc, Mutex};
+  |                 ^^^  ^^^^^
+
+warning: unused import: `ClientZoneEntry`
+ --> src/main.rs:9:79
+  |
+9 | use packets::{LoginAppOp, WorldAppOp, ZoneAppOp, LoginBaseMessage, ZoneEntry, ClientZoneEntry, TitaniumCharInfo, SpawnStruct, PlayerProfi...
+  |                                                                               ^^^^^^^^^^^^^^^
+
+warning: unused label
+   --> src/main.rs:426:5
+    |
+426 |     'zone_loop: loop {
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(unused_labels)]` (part of `#[warn(unused)]`) on by default
+
+error: future cannot be sent between threads safely
+  --> src/web_ui.rs:20:16
+   |
+20 |             ws.on_upgrade(move |socket| handle_socket(socket, state, tx))
+   |                ^^^^^^^^^^ future returned by `handle_socket` is not `Send`
+   |
+   = help: within `impl warp::Future<Output = ()>`, the trait `std::marker::Send` is not implemented for `std::sync::MutexGuard<'_, ZoneState>`
+note: future is not `Send` as this value is used across an await
+  --> src/web_ui.rs:37:63
+   |
+35 |         let state_guard = state.lock().unwrap();
+   |             ----------- has type `std::sync::MutexGuard<'_, ZoneState>` which is not `Send`
+36 |         if let Ok(json) = serde_json::to_string(&*state_guard) {
+37 |             let _ = ws_tx.send(warp::ws::Message::text(json)).await;
+   |                                                               ^^^^^ await occurs here, with `state_guard` maybe used later
+note: required by a bound in `Ws::on_upgrade`
+  --> /home/tommy/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/warp-0.3.7/src/filters/ws.rs:84:34
+   |
+81 |     pub fn on_upgrade<F, U>(self, func: F) -> impl Reply
+   |            ---------- required by a bound in this associated function
+...
+84 |         U: Future<Output = ()> + Send + 'static,
+   |                                  ^^^^ required by this bound in `Ws::on_upgrade`
+
+warning: unreachable statement
+   --> src/main.rs:596:5
+    |
+426 | /     'zone_loop: loop {
+427 | |         let mut buf = [0u8; 8192]; // Larger buffer for PlayerProfile fragments
+428 | |         let (len, src) = zone_socket.recv_from(&mut buf).await?;
+...   |
+594 | |     }
+    | |_____- any code following this expression is unreachable
+595 |
+596 |       println!("\n🏆 Zone connection complete! Character '{}' is now in-world.", char_name_for_zone);
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` (part of `#[warn(unused)]`) on by default
+    = note: this warning originates in the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+For more information about this error, try `rustc --explain E0412`.
+warning: `MobileClient` (bin "MobileClient") generated 6 warnings
+error: could not compile `MobileClient` (bin "MobileClient") due to 4 previous errors; 6 warnings emitted

@@ -1,0 +1,2366 @@
+newmtl b_coldmnt1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt1.png
+newmtl d_snowb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snowb.png
+newmtl d_vistavernowal
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/vistavernowal.png
+newmtl d_vistavsign
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/vistavsign.png
+newmtl d_docsnowwall
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/docsnowwall.png
+newmtl d_coldmnt4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt4.png
+newmtl d_snowrock
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snowrock.png
+newmtl d_tudr001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tudr001.png
+newmtl d_ceiling
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/ceiling.png
+newmtl d_halasnowrf
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/halasnowrf.png
+newmtl b_snowb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snowb.png
+newmtl d_coldmnt1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt1.png
+newmtl d_coldmnt2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt2.png
+newmtl d_roseysi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/roseysi.png
+newmtl d_coldmnt2os
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt2os.png
+newmtl d_docsi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/docsi.png
+newmtl d_coldmnt5
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt5.png
+newmtl b_coldmnt5
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt5.png
+newmtl d_newgrangepen
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/newgrangepen.png
+newmtl d_bloodwall
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bloodwall.png
+newmtl d_bloodsnow
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bloodsnow.png
+newmtl d_arenasi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/arenasi.png
+newmtl d_osnowwall
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/osnowwall.png
+newmtl t75_snowb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snowb.png
+newmtl d_framewood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/framewood.png
+newmtl t75_agua1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/agua1.png
+newmtl d_vuowal
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/vuowal.png
+newmtl d_mcdsi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/mcdsi.png
+newmtl d_mcpsi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/mcpsi.png
+newmtl d_yeesi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/yeesi.png
+newmtl d_mcdansi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/mcdansi.png
+newmtl d_bradsi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bradsi.png
+newmtl d_macssi
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/macssi.png
+newmtl d_vuowal
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/vuowal.png
+newmtl d_fishermansflrs
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fishermansflrs.png
+newmtl d_countertop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/countertop.png
+newmtl d_rtorque
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/rtorque.png
+newmtl d_tudr068
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tudr068.png
+newmtl d_mccosgrove
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/mccosgrove.png
+newmtl d_roseydecor
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/roseydecor.png
+newmtl d_roseysign
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/roseysign.png
+newmtl d_docceiling
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/docceiling.png
+newmtl d_doctarten
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/doctarten.png
+newmtl d_docsign
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/docsign.png
+newmtl d_coldmnt3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt3.png
+newmtl d_macstartin
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/macstartin.png
+newmtl d_brandonbarrel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/brandonbarrel.png
+newmtl d_bradtartin2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bradtartin2.png
+newmtl d_bt
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bt.png
+newmtl d_scottartan
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/scottartan.png
+newmtl d_scottweapon2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/scottweapon2.png
+newmtl d_scottweapon1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/scottweapon1.png
+newmtl d_bradbarrel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bradbarrel.png
+newmtl d_bradtartin
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bradtartin.png
+newmtl d_brad44oz
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/brad44oz.png
+newmtl d_fishermnspears
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fishermnspears.png
+newmtl d_fishermntartn
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fishermntartn.png
+newmtl d_atlasstone2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/atlasstone2.png
+newmtl d_halassign
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/halassign.png
+newmtl d_fishermnodec1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fishermnodec1.png
+newmtl d_fishermnodec2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fishermnodec2.png
+newmtl d_dirtwood2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dirtwood2.png
+newmtl t75_coldmnt1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt1.png
+newmtl t75_coldmnt1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/coldmnt1.png
+newmtl d_cavefloor
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/cavefloor.png
+newmtl b_cavefloor
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/cavefloor.png
+newmtl d_halaswater1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/halaswater1.png
+newmtl d_udoc1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/udoc1.png
+newmtl d_toolmetal1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal1.png
+newmtl d_toolhnd1a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd1a.png
+newmtl d_toolhnd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd.png
+newmtl d_toolmetal2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal2.png
+newmtl d_stumpbark
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/stumpbark.png
+newmtl d_stumptop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/stumptop.png
+newmtl d_barrelside2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/barrelside2.png
+newmtl d_barreltop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/barreltop.png
+newmtl d_barrelnew
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/barrelnew.png
+newmtl d_barreltopg
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/barreltopg.png
+newmtl d_plank4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/plank4.png
+newmtl d_stumptop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/stumptop.png
+newmtl d_dplank3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dplank3.png
+newmtl d_dcartwheel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dcartwheel.png
+newmtl d_dplank4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dplank4.png
+newmtl d_dcartsi01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dcartsi01.png
+newmtl d_dcartside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dcartside.png
+newmtl d_beahdwd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahdwd.png
+newmtl d_beahd0006
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0006.png
+newmtl d_beahd0003
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0003.png
+newmtl d_beahd0001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0001.png
+newmtl d_beahd0005
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0005.png
+newmtl d_beahd0009
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0009.png
+newmtl d_beahd0008
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0008.png
+newmtl d_beahd0004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0004.png
+newmtl d_beahd0010
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahd0010.png
+newmtl d_pillow
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/pillow.png
+newmtl d_bedtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bedtop.png
+newmtl d_headboard
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/headboard.png
+newmtl d_bedwood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bedwood.png
+newmtl d_bedleg1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bedleg1.png
+newmtl d_binside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/binside.png
+newmtl d_boatbot
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/boatbot.png
+newmtl d_binside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/binside.png
+newmtl d_toolmetal2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal2.png
+newmtl d_toolhnd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd.png
+newmtl d_beahdwd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beahdwd.png
+newmtl d_bull0001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bull0001.png
+newmtl d_bull0003
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bull0003.png
+newmtl d_bull0004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bull0004.png
+newmtl d_bull0005
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bull0005.png
+newmtl d_bull0006
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bull0006.png
+newmtl d_pillow
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/pillow.png
+newmtl d_bedwood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bedwood.png
+newmtl d_bedtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bedtop.png
+newmtl d_burialpole
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/burialpole.png
+newmtl d_bgurn
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bgurn.png
+newmtl d_burytop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/burytop.png
+newmtl d_burytopl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/burytopl.png
+newmtl d_btside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/btside.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_stumptop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/stumptop.png
+newmtl d_firewood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/firewood.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_wax2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/wax2.png
+newmtl d_plank3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/plank3.png
+newmtl d_cartwheel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/cartwheel.png
+newmtl d_plank4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/plank4.png
+newmtl d_cartsi01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/cartsi01.png
+newmtl d_cartside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/cartside.png
+newmtl d_dressertop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dressertop.png
+newmtl d_chair
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/chair.png
+newmtl d_darktabtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/darktabtop.png
+newmtl d_darktabsid
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/darktabsid.png
+newmtl d_dressertop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dressertop.png
+newmtl d_chair
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/chair.png
+newmtl d_darktabtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/darktabtop.png
+newmtl d_darktabsid
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/darktabsid.png
+newmtl d_crate2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate2.png
+newmtl d_crate1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate1.png
+newmtl d_crate6
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate6.png
+newmtl d_crate5
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate5.png
+newmtl d_crate8
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate8.png
+newmtl d_crate7
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate7.png
+newmtl d_crate9a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate9a.png
+newmtl d_crate9
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate9.png
+newmtl d_crate10a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate10a.png
+newmtl d_crate10
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate10.png
+newmtl d_crate8
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate8.png
+newmtl d_apples
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/apples.png
+newmtl d_crate7
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate7.png
+newmtl d_crate8
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate8.png
+newmtl d_beans
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/beans.png
+newmtl d_crate7
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate7.png
+newmtl d_crate8
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate8.png
+newmtl d_chives
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/chives.png
+newmtl d_crate7
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate7.png
+newmtl d_crate8
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate8.png
+newmtl d_oranges
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/oranges.png
+newmtl d_crate7
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate7.png
+newmtl d_crate8
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate8.png
+newmtl d_tomatoes
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tomatoes.png
+newmtl d_crate7
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/crate7.png
+newmtl d_darktabtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/darktabtop.png
+newmtl d_darktabsid
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/darktabsid.png
+newmtl d_dskein
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dskein.png
+newmtl d_dill2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dill2.png
+newmtl d_dillwood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dillwood.png
+newmtl d_dtredrope1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dtredrope1.png
+newmtl d_dill1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dill1.png
+newmtl d_erlant1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/erlant1.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_erbrass
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/erbrass.png
+newmtl d_dplank3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dplank3.png
+newmtl d_dcartwheel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dcartwheel.png
+newmtl d_dplank4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dplank4.png
+newmtl d_dcartsi01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dcartsi01.png
+newmtl d_dcartside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dcartside.png
+newmtl d_fish
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fish.png
+newmtl d_fin
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fin.png
+newmtl d_fstuffs
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstuffs.png
+newmtl d_fsside2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fsside2.png
+newmtl d_fstop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstop.png
+newmtl d_fsside1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fsside1.png
+newmtl tm_furpile1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/furpile1.png
+newmtl tm_furpile2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/furpile2.png
+newmtl tm_furrug1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/furrug1.png
+newmtl d_fstack1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack1.png
+newmtl d_fstack3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack3.png
+newmtl d_fstack2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack2.png
+newmtl d_fstack1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack1.png
+newmtl d_fstack3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack3.png
+newmtl d_fstack1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack1.png
+newmtl d_fstack3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack3.png
+newmtl d_fstack4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack4.png
+newmtl d_fstack1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack1.png
+newmtl d_fstack3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack3.png
+newmtl d_fstack5
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fstack5.png
+newmtl d_bbdoor1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bbdoor1.png
+newmtl d_snowb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snowb.png
+newmtl d_snowb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snowb.png
+newmtl d_kbarkd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/kbarkd.png
+newmtl tm_halpine
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/halpine.png
+newmtl tau_glass
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/glass.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_lantern3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern3.png
+newmtl d_lantern2a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern2a.png
+newmtl d_lantern1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern1.png
+newmtl tm_chain1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/chain1.png
+newmtl d_haunch1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/haunch1.png
+newmtl d_haunch2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/haunch2.png
+newmtl d_haunch1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/haunch1.png
+newmtl d_haunch2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/haunch2.png
+newmtl d_bale1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bale1.png
+newmtl d_bale
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bale.png
+newmtl d_hbox2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbox2.png
+newmtl d_hbox1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbox1.png
+newmtl d_hbox2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbox2.png
+newmtl d_hbox3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbox3.png
+newmtl d_hbox1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbox1.png
+newmtl d_tigrskin1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tigrskin1.png
+newmtl d_tigrskin
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tigrskin.png
+newmtl d_hbedside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbedside.png
+newmtl d_hthrone1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hthrone1.png
+newmtl d_hbedpost
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbedpost.png
+newmtl d_hplank3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hplank3.png
+newmtl d_hcartwheel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hcartwheel.png
+newmtl d_hplank4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hplank4.png
+newmtl d_hcartsi01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hcartsi01.png
+newmtl d_hcartside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hcartside.png
+newmtl d_restonebench
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/restonebench.png
+newmtl d_mound2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/mound2.png
+newmtl d_hhrock
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hhrock.png
+newmtl d_hthrone3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hthrone3.png
+newmtl d_hthrone2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hthrone2.png
+newmtl d_hthrone1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hthrone1.png
+newmtl d_lanterntop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lanterntop.png
+newmtl d_lamptop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lamptop.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl tm_loom1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/loom1.png
+newmtl d_loom2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/loom2.png
+newmtl d_jerky
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/jerky.png
+newmtl d_jerky1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/jerky1.png
+newmtl d_barrelsideg
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/barrelsideg.png
+newmtl d_barreltopg
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/barreltopg.png
+newmtl d_plaidstack
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/plaidstack.png
+newmtl d_bradplad
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/bradplad.png
+newmtl d_macsplad
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/macsplad.png
+newmtl tau_glass
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/glass.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_lantern3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern3.png
+newmtl d_lantern2a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern2a.png
+newmtl d_lantern1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern1.png
+newmtl ta_falloff
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/falloff.png
+newmtl d_lantholderd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantholderd.png
+newmtl d_lantholderl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantholderl.png
+newmtl d_lantern3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern3.png
+newmtl d_lantern2a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern2a.png
+newmtl d_lantern1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lantern1.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_lanterntop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/lanterntop.png
+newmtl tau_glass
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/glass.png
+newmtl d_logbark
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/logbark.png
+newmtl d_logtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/logtop.png
+newmtl d_palpilow
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/palpilow.png
+newmtl d_wood1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/wood1.png
+newmtl d_pallet
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/pallet.png
+newmtl d_toolhnd1a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd1a.png
+newmtl d_toolmetal1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal1.png
+newmtl d_toolhnd1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd1.png
+newmtl d_toolmetal2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal2.png
+newmtl d_pawbarrel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/pawbarrel.png
+newmtl d_pawwater
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/pawwater.png
+newmtl d_pawtabltop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/pawtabltop.png
+newmtl d_logbark
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/logbark.png
+newmtl d_toolmetal1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal1.png
+newmtl d_toolhnd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd.png
+newmtl d_toolmetal2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal2.png
+newmtl d_toolhnd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd.png
+newmtl d_tableside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tableside.png
+newmtl d_tabletop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tabletop.png
+newmtl d_ropecoil
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/ropecoil.png
+newmtl d_tableside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tableside.png
+newmtl d_rtabltop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/rtabltop.png
+newmtl d_rug3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/rug3.png
+newmtl d_hbowl1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbowl1.png
+newmtl d_hbowl2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hbowl2.png
+newmtl d_halblade1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/halblade1.png
+newmtl d_hhaft
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hhaft.png
+newmtl d_hhilt
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hhilt.png
+newmtl d_hpommel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/hpommel.png
+newmtl d_scull
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/scull.png
+newmtl d_sharpen1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/sharpen1.png
+newmtl d_5steps4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/5steps4.png
+newmtl d_sharpwood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/sharpwood.png
+newmtl d_dressertop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/dressertop.png
+newmtl d_toolmetal1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal1.png
+newmtl d_toolhnda
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnda.png
+newmtl d_toolmetal2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolmetal2.png
+newmtl d_toolhnd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/toolhnd.png
+newmtl d_snahe2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe2.png
+newmtl d_snalg
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snalg.png
+newmtl d_snahe
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe.png
+newmtl d_snahe1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe1.png
+newmtl d_snahe6
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe6.png
+newmtl d_snafa
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snafa.png
+newmtl d_snahe5
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe5.png
+newmtl d_snahe3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe3.png
+newmtl d_snahe4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snahe4.png
+newmtl d_snakewood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/snakewood.png
+newmtl d_spitter1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/spitter1.png
+newmtl d_steel
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/steel.png
+newmtl d_tableside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tableside.png
+newmtl d_tabletop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tabletop.png
+newmtl d_restonebench
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/restonebench.png
+newmtl d_tabac2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tabac2.png
+newmtl d_tabac1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/tabac1.png
+newmtl d_1tig1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tig1.png
+newmtl d_1tig4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tig4.png
+newmtl d_1tig5
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tig5.png
+newmtl d_1tig3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tig3.png
+newmtl d_1tig2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tig2.png
+newmtl d_1tigwood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tigwood.png
+newmtl d_1tigch1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/1tigch1.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_torchbot
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/torchbot.png
+newmtl d_holderd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/holderd.png
+newmtl d_holderl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/holderl.png
+newmtl tau_fire1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/fire1.png
+newmtl d_torchtop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/torchtop.png
+newmtl d_torchbot
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/torchbot.png
+newmtl d_holderd
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/holderd.png
+newmtl d_holderl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/holderl.png
+newmtl d_urnside
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/urnside.png
+newmtl d_inurn
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/inurn.png
+newmtl d_urn2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/urn2.png
+newmtl d_inurn
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/inurn.png
+newmtl d_urn3
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/urn3.png
+newmtl d_inurn
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/inurn.png
+newmtl tm_yelrug
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 1.0 
+illum 2
+map_Kd Textures/yelrug.png

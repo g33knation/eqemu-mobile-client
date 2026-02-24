@@ -1,0 +1,10 @@
+# WLD Mesh R2251_DMSPRITEDEF
+mtllib R2251_DMSPRITEDEF.mtl
+usemtl Material0
+v -6 47 146.5
+v -6 47 2.5
+v -85.5 -10.5 2.5
+vt 0.4296875 0.71484375
+vt 0.75 0.71484375
+vt 0.75 0.53515625
+f 1/1 2/2 3/3

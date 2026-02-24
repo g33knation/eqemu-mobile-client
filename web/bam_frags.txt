@@ -1,0 +1,8 @@
+WLD: globalbam_chr.wld
+  Mesh [109]: BAM_DMSPRITEDEF
+  Mesh [110]: BAMEYE_R_DMSPRITEDEF
+  Mesh [111]: BAMEYE_L_DMSPRITEDEF
+  MeshReference [320]: Unnamed
+  MeshReference [321]: Unnamed
+  MeshReference [322]: Unnamed
+WLD: globalbam_chr2.wld

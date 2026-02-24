@@ -1,0 +1,335 @@
+Loading S3D Archives...
+Processing S3D:  globalbam_chr.s3d Skip Images:  false
+Processing WLD file - globalbam_chr.wld
+Processed - globalbam_chr.s3d
+Mock parseImages: processing 145 images...
+  Processing image: bamhn0201.dds (base: bamhn0201)
+    !!! Still missing data for: bamhn0201.dds
+  Processing image: bamhesk51.dds (base: bamhesk51)
+    Found exact match: bamhesk51.png
+  Processing image: bamhesk04.dds (base: bamhesk04)
+    Found exact match: bamhesk04.png
+  Processing image: bamchsk03.dds (base: bamchsk03)
+    Found exact match: bamchsk03.png
+  Processing image: bamlg0302.dds (base: bamlg0302)
+    !!! Still missing data for: bamlg0302.dds
+  Processing image: bamhe0104.dds (base: bamhe0104)
+    !!! Still missing data for: bamhe0104.dds
+  Processing image: bamch0103.dds (base: bamch0103)
+    !!! Still missing data for: bamch0103.dds
+  Processing image: chr_eye001.dds (base: chr_eye001)
+    Found exact match: chr_eye001.png
+  Processing image: bamhe0002.dds (base: bamhe0002)
+    Aliasing bamhe0002 -> bamhesk02.png
+  Processing image: bamfa0301.dds (base: bamfa0301)
+    !!! Still missing data for: bamfa0301.dds
+  Processing image: bamhe0003.dds (base: bamhe0003)
+    Aliasing bamhe0003 -> bamhesk03.png
+  Processing image: bamhe0105.dds (base: bamhe0105)
+    !!! Still missing data for: bamhe0105.dds
+  Processing image: bamch0102.dds (base: bamch0102)
+    !!! Still missing data for: bamch0102.dds
+  Processing image: bamhesk05.dds (base: bamhesk05)
+    Found exact match: bamhesk05.png
+  Processing image: bamchsk02.dds (base: bamchsk02)
+    Found exact match: bamchsk02.png
+  Processing image: bamlg0303.dds (base: bamlg0303)
+    !!! Still missing data for: bamlg0303.dds
+  Processing image: bamua0101.dds (base: bamua0101)
+    !!! Still missing data for: bamua0101.dds
+  Processing image: bamuask01.dds (base: bamuask01)
+    Found exact match: bamuask01.png
+  Processing image: bamhe0501.dds (base: bamhe0501)
+    !!! Still missing data for: bamhe0501.dds
+  Processing image: bamft0101.dds (base: bamft0101)
+    !!! Still missing data for: bamft0101.dds
+  Processing image: bamftsk01.dds (base: bamftsk01)
+    Found exact match: bamftsk01.png
+  Processing image: bamhe0405.dds (base: bamhe0405)
+    !!! Still missing data for: bamhe0405.dds
+  Processing image: bamfa0302.dds (base: bamfa0302)
+    !!! Still missing data for: bamfa0302.dds
+  Processing image: bamhesk07.dds (base: bamhesk07)
+    Found exact match: bamhesk07.png
+  Processing image: bamlg0301.dds (base: bamlg0301)
+    !!! Still missing data for: bamlg0301.dds
+  Processing image: bamhe0001.dds (base: bamhe0001)
+    Aliasing bamhe0001 -> bamhesk01.png
+  Processing image: bamftsk03.dds (base: bamftsk03)
+    Found exact match: bamftsk03.png
+  Processing image: bamft0103.dds (base: bamft0103)
+    !!! Still missing data for: bamft0103.dds
+  Processing image: bamhesk45.dds (base: bamhesk45)
+    Found exact match: bamhesk45.png
+  Processing image: bamhn0202.dds (base: bamhn0202)
+    !!! Still missing data for: bamhn0202.dds
+  Processing image: bamft0102.dds (base: bamft0102)
+    !!! Still missing data for: bamft0102.dds
+  Processing image: bamhesk44.dds (base: bamhesk44)
+    Found exact match: bamhesk44.png
+  Processing image: bamft0004.dds (base: bamft0004)
+    Aliasing bamft0004 -> bamftsk04.png
+  Processing image: bamhesk11.dds (base: bamhesk11)
+    Found exact match: bamhesk11.png
+  Processing image: bamftsk02.dds (base: bamftsk02)
+    Found exact match: bamftsk02.png
+  Processing image: bamhn0203.dds (base: bamhn0203)
+    !!! Still missing data for: bamhn0203.dds
+  Processing image: bamua0102.dds (base: bamua0102)
+    !!! Still missing data for: bamua0102.dds
+  Processing image: bamuask02.dds (base: bamuask02)
+    Found exact match: bamuask02.png
+  Processing image: bamhe0404.dds (base: bamhe0404)
+    !!! Still missing data for: bamhe0404.dds
+  Processing image: bamch0101.dds (base: bamch0101)
+    !!! Still missing data for: bamch0101.dds
+  Processing image: bamchsk01.dds (base: bamchsk01)
+    Found exact match: bamchsk01.png
+  Processing image: bamhesk06.dds (base: bamhesk06)
+    Found exact match: bamhesk06.png
+  Processing image: bamhesk14.dds (base: bamhesk14)
+    Found exact match: bamhesk14.png
+  Processing image: bamft0001.dds (base: bamft0001)
+    Aliasing bamft0001 -> bamftsk01.png
+  Processing image: bamhesk41.dds (base: bamhesk41)
+    Found exact match: bamhesk41.png
+  Processing image: bamhesk03.dds (base: bamhesk03)
+    Found exact match: bamhesk03.png
+  Processing image: bamlg0203.dds (base: bamlg0203)
+    !!! Still missing data for: bamlg0203.dds
+  Processing image: bamhe0005.dds (base: bamhe0005)
+    Aliasing bamhe0005 -> bamhesk05.png
+  Processing image: bamch0002.dds (base: bamch0002)
+    Aliasing bamch0002 -> bamchsk02.png
+  Processing image: bamhe0401.dds (base: bamhe0401)
+    !!! Still missing data for: bamhe0401.dds
+  Processing image: bamua0001.dds (base: bamua0001)
+    Aliasing bamua0001 -> bamuask01.png
+  Processing image: bamhe0004.dds (base: bamhe0004)
+    Aliasing bamhe0004 -> bamhesk04.png
+  Processing image: bamch0003.dds (base: bamch0003)
+    Aliasing bamch0003 -> bamchsk03.png
+  Processing image: bamlg0202.dds (base: bamlg0202)
+    !!! Still missing data for: bamlg0202.dds
+  Processing image: bamhesk02.dds (base: bamhesk02)
+    Found exact match: bamhesk02.png
+  Processing image: bamfa0201.dds (base: bamfa0201)
+    !!! Still missing data for: bamfa0201.dds
+  Processing image: bamhn0301.dds (base: bamhn0301)
+    !!! Still missing data for: bamhn0301.dds
+  Processing image: bamhesk15.dds (base: bamhesk15)
+    Found exact match: bamhesk15.png
+  Processing image: bamhe0504.dds (base: bamhe0504)
+    !!! Still missing data for: bamhe0504.dds
+  Processing image: bamua0002.dds (base: bamua0002)
+    Aliasing bamua0002 -> bamuask02.png
+  Processing image: bamhesk55.dds (base: bamhesk55)
+    Found exact match: bamhesk55.png
+  Processing image: bamch0001.dds (base: bamch0001)
+    Aliasing bamch0001 -> bamchsk01.png
+  Processing image: bamhe0006.dds (base: bamhe0006)
+    Aliasing bamhe0006 -> bamhesk06.png
+  Processing image: bamftsk04.dds (base: bamftsk04)
+    Found exact match: bamftsk04.png
+  Processing image: bamft0104.dds (base: bamft0104)
+    !!! Still missing data for: bamft0104.dds
+  Processing image: bamft0002.dds (base: bamft0002)
+    Aliasing bamft0002 -> bamftsk02.png
+  Processing image: bamhn0303.dds (base: bamhn0303)
+    !!! Still missing data for: bamhn0303.dds
+  Processing image: bamft0003.dds (base: bamft0003)
+    Aliasing bamft0003 -> bamftsk03.png
+  Processing image: bamhn0302.dds (base: bamhn0302)
+    !!! Still missing data for: bamhn0302.dds
+  Processing image: bamfa0202.dds (base: bamfa0202)
+    !!! Still missing data for: bamfa0202.dds
+  Processing image: bamhe0505.dds (base: bamhe0505)
+    !!! Still missing data for: bamhe0505.dds
+  Processing image: bamhe0007.dds (base: bamhe0007)
+    Aliasing bamhe0007 -> bamhesk07.png
+  Processing image: bamhe0101.dds (base: bamhe0101)
+    !!! Still missing data for: bamhe0101.dds
+  Processing image: bamhesk01.dds (base: bamhesk01)
+    Found exact match: bamhesk01.png
+  Processing image: bamlg0201.dds (base: bamlg0201)
+    !!! Still missing data for: bamlg0201.dds
+  Processing image: bamhesk54.dds (base: bamhesk54)
+    Found exact match: bamhesk54.png
+  Processing image: bamhn0003.dds (base: bamhn0003)
+    Aliasing bamhn0003 -> bamhnsk03.png
+  Processing image: bamhe0804.dds (base: bamhe0804)
+    !!! Still missing data for: bamhe0804.dds
+  Processing image: bamft0204.dds (base: bamft0204)
+    !!! Still missing data for: bamft0204.dds
+  Processing image: bamft0302.dds (base: bamft0302)
+    !!! Still missing data for: bamft0302.dds
+  Processing image: bamhe0604.dds (base: bamhe0604)
+    !!! Still missing data for: bamhe0604.dds
+  Processing image: bamhesk25.dds (base: bamhesk25)
+    Found exact match: bamhesk25.png
+  Processing image: bamua0302.dds (base: bamua0302)
+    !!! Still missing data for: bamua0302.dds
+  Processing image: bamlgsk01.dds (base: bamlgsk01)
+    Found exact match: bamlgsk01.png
+  Processing image: bamhe0201.dds (base: bamhe0201)
+    !!! Still missing data for: bamhe0201.dds
+  Processing image: bamlg0101.dds (base: bamlg0101)
+    !!! Still missing data for: bamlg0101.dds
+  Processing image: bamfa0102.dds (base: bamfa0102)
+    !!! Still missing data for: bamfa0102.dds
+  Processing image: bamhesk71.dds (base: bamhesk71)
+    Found exact match: bamhesk71.png
+  Processing image: bamfask02.dds (base: bamfask02)
+    Found exact match: bamfask02.png
+  Processing image: bamhe0605.dds (base: bamhe0605)
+    !!! Still missing data for: bamhe0605.dds
+  Processing image: bamhesk24.dds (base: bamhesk24)
+    Found exact match: bamhesk24.png
+  Processing image: bamhn0002.dds (base: bamhn0002)
+    Aliasing bamhn0002 -> bamhnsk02.png
+  Processing image: bamft0303.dds (base: bamft0303)
+    !!! Still missing data for: bamft0303.dds
+  Processing image: bamhe0805.dds (base: bamhe0805)
+    !!! Still missing data for: bamhe0805.dds
+  Processing image: bamhe0701.dds (base: bamhe0701)
+    !!! Still missing data for: bamhe0701.dds
+  Processing image: bamua0301.dds (base: bamua0301)
+    !!! Still missing data for: bamua0301.dds
+  Processing image: bamlg0103.dds (base: bamlg0103)
+    !!! Still missing data for: bamlg0103.dds
+  Processing image: bamhe0305.dds (base: bamhe0305)
+    !!! Still missing data for: bamhe0305.dds
+  Processing image: bamlgsk03.dds (base: bamlgsk03)
+    Found exact match: bamlgsk03.png
+  Processing image: bamft0301.dds (base: bamft0301)
+    !!! Still missing data for: bamft0301.dds
+  Processing image: bamhesk64.dds (base: bamhesk64)
+    Found exact match: bamhesk64.png
+  Processing image: bamhesk31.dds (base: bamhesk31)
+    Found exact match: bamhesk31.png
+  Processing image: bamhn0001.dds (base: bamhn0001)
+    Aliasing bamhn0001 -> bamhnsk01.png
+  Processing image: bamhesk65.dds (base: bamhesk65)
+    Found exact match: bamhesk65.png
+  Processing image: bamfa0101.dds (base: bamfa0101)
+    !!! Still missing data for: bamfa0101.dds
+  Processing image: bamfask01.dds (base: bamfask01)
+    Found exact match: bamfask01.png
+  Processing image: bamhesk08.dds (base: bamhesk08)
+    Found exact match: bamhesk08.png
+  Processing image: bamhe0304.dds (base: bamhe0304)
+    !!! Still missing data for: bamhe0304.dds
+  Processing image: bamlgsk02.dds (base: bamlgsk02)
+    Found exact match: bamlgsk02.png
+  Processing image: bamlg0102.dds (base: bamlg0102)
+    !!! Still missing data for: bamlg0102.dds
+  Processing image: bamhnsk02.dds (base: bamhnsk02)
+    Found exact match: bamhnsk02.png
+  Processing image: bamhn0102.dds (base: bamhn0102)
+    !!! Still missing data for: bamhn0102.dds
+  Processing image: bamhesk35.dds (base: bamhesk35)
+    Found exact match: bamhesk35.png
+  Processing image: bamft0203.dds (base: bamft0203)
+    !!! Still missing data for: bamft0203.dds
+  Processing image: bamlg0001.dds (base: bamlg0001)
+    Aliasing bamlg0001 -> bamlgsk01.png
+  Processing image: bamhe0301.dds (base: bamhe0301)
+    !!! Still missing data for: bamhe0301.dds
+  Processing image: bamhe0705.dds (base: bamhe0705)
+    !!! Still missing data for: bamhe0705.dds
+  Processing image: bamfa0002.dds (base: bamfa0002)
+    Aliasing bamfa0002 -> bamfask02.png
+  Processing image: bamch0201.dds (base: bamch0201)
+    !!! Still missing data for: bamch0201.dds
+  Processing image: bamua0202.dds (base: bamua0202)
+    !!! Still missing data for: bamua0202.dds
+  Processing image: bamhe0704.dds (base: bamhe0704)
+    !!! Still missing data for: bamhe0704.dds
+  Processing image: bamhesk34.dds (base: bamhesk34)
+    Found exact match: bamhesk34.png
+  Processing image: bamhn0103.dds (base: bamhn0103)
+    !!! Still missing data for: bamhn0103.dds
+  Processing image: bamhesk61.dds (base: bamhesk61)
+    Found exact match: bamhesk61.png
+  Processing image: bamhnsk03.dds (base: bamhnsk03)
+    Found exact match: bamhnsk03.png
+  Processing image: bamft0202.dds (base: bamft0202)
+    !!! Still missing data for: bamft0202.dds
+  Processing image: bamft0304.dds (base: bamft0304)
+    !!! Still missing data for: bamft0304.dds
+  Processing image: bamhesk21.dds (base: bamhesk21)
+    Found exact match: bamhesk21.png
+  Processing image: bamhesk74.dds (base: bamhesk74)
+    Found exact match: bamhesk74.png
+  Processing image: bamfa0001.dds (base: bamfa0001)
+    Aliasing bamfa0001 -> bamfask01.png
+  Processing image: bamhe0008.dds (base: bamhe0008)
+    Aliasing bamhe0008 -> bamhesk08.png
+  Processing image: bamlg0002.dds (base: bamlg0002)
+    Aliasing bamlg0002 -> bamlgsk02.png
+  Processing image: bamhe0204.dds (base: bamhe0204)
+    !!! Still missing data for: bamhe0204.dds
+  Processing image: bamch0203.dds (base: bamch0203)
+    !!! Still missing data for: bamch0203.dds
+  Processing image: bamhnsk01.dds (base: bamhnsk01)
+    Found exact match: bamhnsk01.png
+  Processing image: bamhn0101.dds (base: bamhn0101)
+    !!! Still missing data for: bamhn0101.dds
+  Processing image: bamft0201.dds (base: bamft0201)
+    !!! Still missing data for: bamft0201.dds
+  Processing image: bamhe0801.dds (base: bamhe0801)
+    !!! Still missing data for: bamhe0801.dds
+  Processing image: palette.bmp (base: palette)
+    !!! Still missing data for: palette.bmp
+  Processing image: bamua0201.dds (base: bamua0201)
+    !!! Still missing data for: bamua0201.dds
+  Processing image: bamhesk75.dds (base: bamhesk75)
+    Found exact match: bamhesk75.png
+  Processing image: bamhe0601.dds (base: bamhe0601)
+    !!! Still missing data for: bamhe0601.dds
+  Processing image: bamhe0205.dds (base: bamhe0205)
+    !!! Still missing data for: bamhe0205.dds
+  Processing image: bamch0202.dds (base: bamch0202)
+    !!! Still missing data for: bamch0202.dds
+  Processing image: bamlg0003.dds (base: bamlg0003)
+    Aliasing bamlg0003 -> bamlgsk03.png
+Done processing images globalbam_chr.s3d - 145
+Found 3 BAM meshes! Using native BAM skeleton.
+BAM Meshes selected: [ 'BAM_DMSPRITEDEF', 'BAMEYE_R_DMSPRITEDEF', 'BAMEYE_L_DMSPRITEDEF' ]
+BAM Skeleton has 74 animations loaded!
+Exporting custom skinned mesh 'bam.glb'...
+  Animation Lookup: Race=bam, DerivedBase=bam
+    Mapping found: bam -> elm
+    Existing shared skeleton found: false (undefined)
+  Baking texture: bamch0002
+  Baking texture: bamch0003
+  Baking texture: bamlg0001
+  Baking texture: bamlg0003
+  Baking texture: bamft0004
+  Baking texture: bamlg0002
+  Baking texture: bamfa0001
+  Baking texture: bamua0002
+  Baking texture: bamua0001
+  Baking texture: bamhn0001
+  Baking texture: bamhn0002
+  Baking texture: bamhn0003
+  Baking texture: bamft0001
+  Baking texture: bamft0002
+  Baking texture: bamft0003
+  Baking texture: bamch0001
+  Baking texture: bamfa0002
+  Baking texture: bamhe0008
+  Baking texture: bamhe0001
+  Baking texture: bamhe0004
+  Baking texture: bamhe0005
+  Baking texture: bamhe0002
+  Baking texture: bamhe0003
+  Baking texture: bamhe0007
+  Baking texture: bamhe0006
+  Missing texture data for: bamr_eye
+  Missing texture data for: baml_eye
+Successfully exported native BAM Luclin model!
+(node:2646118) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/tommy/eqsage/sage/lib/s3d/s3d-decoder.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/tommy/eqsage/sage/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)

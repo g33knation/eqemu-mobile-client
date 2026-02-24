@@ -1,0 +1,179 @@
+   Compiling MobileClient v0.1.0 (/home/tommy/Desktop/MobileClient)
+error[E0252]: the name `Read` is defined multiple times
+   --> src/packets.rs:268:17
+    |
+  2 | use std::io::Read; // for read_exact
+    |     ------------- previous import of the trait `Read` here
+...
+268 | use binrw::io::{Read, Write};
+    |                 ^^^^--
+    |                 |
+    |                 `Read` reimported here
+    |                 help: remove unnecessary import
+    |
+    = note: `Read` must be defined only once in the type namespace of this module
+
+error[E0252]: the name `BinResult` is defined multiple times
+   --> src/packets.rs:269:5
+    |
+  1 | use binrw::{BinRead, BinWrite, io::Cursor, BinReaderExt, BinResult};
+    |                                                          --------- previous import of the type `BinResult` here
+...
+269 | use binrw::BinResult;
+    |     ^^^^^^^^^^^^^^^^ `BinResult` reimported here
+    |
+    = note: `BinResult` must be defined only once in the type namespace of this module
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/udp_engine.rs:8:5
+  |
+8 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `async_recursion::async_recursion`
+ --> src/packets.rs:3:5
+  |
+3 | use async_recursion::async_recursion;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `Read`
+   --> src/packets.rs:268:17
+    |
+268 | use binrw::io::{Read, Write};
+    |                 ^^^^
+
+warning: unused import: `binrw::BinResult`
+   --> src/packets.rs:269:5
+    |
+269 | use binrw::BinResult;
+    |     ^^^^^^^^^^^^^^^^
+
+warning: unused imports: `Arc` and `Mutex`
+ --> src/web_ui.rs:2:17
+  |
+2 | use std::sync::{Arc, Mutex};
+  |                 ^^^  ^^^^^
+
+warning: unused import: `ClientZoneEntry`
+ --> src/main.rs:9:79
+  |
+9 | use packets::{LoginAppOp, WorldAppOp, ZoneAppOp, LoginBaseMessage, ZoneEntry, ClientZoneEntry, TitaniumCharInfo, SpawnStruct, PlayerProfi...
+  |                                                                               ^^^^^^^^^^^^^^^
+
+warning: unused label
+   --> src/main.rs:426:5
+    |
+426 |     'zone_loop: loop {
+    |     ^^^^^^^^^^
+    |
+    = note: `#[warn(unused_labels)]` (part of `#[warn(unused)]`) on by default
+
+warning: unreachable statement
+   --> src/main.rs:596:5
+    |
+426 | /     'zone_loop: loop {
+427 | |         let mut buf = [0u8; 8192]; // Larger buffer for PlayerProfile fragments
+428 | |         let (len, src) = zone_socket.recv_from(&mut buf).await?;
+...   |
+594 | |     }
+    | |_____- any code following this expression is unreachable
+595 |
+596 |       println!("\n🏆 Zone connection complete! Character '{}' is now in-world.", char_name_for_zone);
+    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ unreachable statement
+    |
+    = note: `#[warn(unreachable_code)]` (part of `#[warn(unused)]`) on by default
+    = note: this warning originates in the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: value assigned to `selected_server_id` is never read
+   --> src/main.rs:111:13
+    |
+111 |     let mut selected_server_id = 0;
+    |             ^^^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` (part of `#[warn(unused)]`) on by default
+
+warning: value assigned to `zone_server_ip` is never read
+   --> src/main.rs:114:13
+    |
+114 |     let mut zone_server_ip = String::new();
+    |             ^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: value assigned to `zone_server_port` is never read
+   --> src/main.rs:115:13
+    |
+115 |     let mut zone_server_port: u16 = 0;
+    |             ^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: variable `got_zone_entry` is assigned to, but never used
+   --> src/main.rs:215:13
+    |
+215 |     let mut got_zone_entry = false;
+    |             ^^^^^^^^^^^^^^
+    |
+    = note: consider using `_got_zone_entry` instead
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: value assigned to `got_zone_entry` is never read
+   --> src/main.rs:344:18
+    |
+344 |                  got_zone_entry = true;
+    |                  ^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: value assigned to `got_zone_entry` is never read
+   --> src/main.rs:362:26
+    |
+362 |                          got_zone_entry = true;
+    |                          ^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: variable `got_world_objects_sent` is assigned to, but never used
+   --> src/main.rs:423:13
+    |
+423 |     let mut got_world_objects_sent = false;
+    |             ^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = note: consider using `_got_world_objects_sent` instead
+
+warning: value assigned to `got_world_objects_sent` is never read
+   --> src/main.rs:457:17
+    |
+457 |                 got_world_objects_sent = true;
+    |                 ^^^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: unused variable: `update`
+   --> src/main.rs:531:27
+    |
+531 |                 if let Ok(update) = ClientUpdate::read(&mut reader) {
+    |                           ^^^^^^ help: if this is intentional, prefix it with an underscore: `_update`
+
+warning: unused variable: `state`
+   --> src/main.rs:533:29
+    |
+533 |                     let mut state = zone_state.lock().unwrap();
+    |                             ^^^^^ help: if this is intentional, prefix it with an underscore: `_state`
+
+warning: variable does not need to be mutable
+   --> src/main.rs:533:25
+    |
+533 |                     let mut state = zone_state.lock().unwrap();
+    |                         ----^^^^^
+    |                         |
+    |                         help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+For more information about this error, try `rustc --explain E0252`.
+warning: `MobileClient` (bin "MobileClient") generated 19 warnings
+error: could not compile `MobileClient` (bin "MobileClient") due to 2 previous errors; 19 warnings emitted

@@ -1,0 +1,108 @@
+Processing S3D:  global17_amr.s3d Skip Images:  true
+Processing S3D:  global18_amr.s3d Skip Images:  true
+Processing S3D:  global19_amr.s3d Skip Images:  true
+Processing S3D:  global20_amr.s3d Skip Images:  true
+Processing S3D:  global21_amr.s3d Skip Images:  true
+Processing S3D:  global22_amr.s3d Skip Images:  true
+Processing S3D:  global23_amr.s3d Skip Images:  true
+Processing S3D:  global2_chr.s3d Skip Images:  true
+Processing S3D:  global3_chr.s3d Skip Images:  true
+Inflate directory failed
+Processed - global3_chr.s3d
+Processing S3D:  global4_chr.s3d Skip Images:  true
+Processing S3D:  global5_chr.s3d Skip Images:  true
+Processing S3D:  global6_chr.s3d Skip Images:  true
+Processing S3D:  global7_chr.s3d Skip Images:  true
+Processing S3D:  global_chr.s3d Skip Images:  true
+Processing S3D:  global_obj.s3d Skip Images:  true
+Processing S3D:  globalbaf_chr.s3d Skip Images:  true
+Processing S3D:  globalbaf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalbaf_chr2.s3d
+Processing S3D:  globalbam_chr.s3d Skip Images:  true
+Processing S3D:  globalbam_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalbam_chr2.s3d
+Processing S3D:  globaldaf_chr.s3d Skip Images:  true
+Processing S3D:  globaldam_chr.s3d Skip Images:  true
+Processing S3D:  globaldwf_chr.s3d Skip Images:  true
+Processing S3D:  globaldwf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globaldwf_chr2.s3d
+Processing S3D:  globaldwm_chr.s3d Skip Images:  true
+Processing S3D:  globalelf_chr.s3d Skip Images:  true
+Processing S3D:  globalelf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalelf_chr2.s3d
+Processing S3D:  globalelm_chr.s3d Skip Images:  true
+Processing S3D:  globalelm_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalelm_chr2.s3d
+Processing S3D:  globalerf_chr.s3d Skip Images:  true
+Processing S3D:  globalerm_chr.s3d Skip Images:  true
+Processing S3D:  globalfroglok_chr.s3d Skip Images:  true
+Processing S3D:  globalgnf_chr.s3d Skip Images:  true
+Processing S3D:  globalgnm_chr.s3d Skip Images:  true
+Processing S3D:  globalgnm_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalgnm_chr2.s3d
+Processing S3D:  globalhaf_chr.s3d Skip Images:  true
+Processing S3D:  globalham_chr.s3d Skip Images:  true
+Processing S3D:  globalhif_chr.s3d Skip Images:  true
+Processing S3D:  globalhim_chr.s3d Skip Images:  true
+Processing S3D:  globalhof_chr.s3d Skip Images:  true
+Processing S3D:  globalhof_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalhof_chr2.s3d
+Processing S3D:  globalhom_chr.s3d Skip Images:  true
+Processing S3D:  globalhom_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalhom_chr2.s3d
+Processing S3D:  globalhuf_chr.s3d Skip Images:  true
+Processing S3D:  globalhuf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalhuf_chr2.s3d
+Processing S3D:  globalhum_chr.s3d Skip Images:  true
+Processing S3D:  globalhum_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalhum_chr2.s3d
+Processing S3D:  globalikf_chr.s3d Skip Images:  true
+Processing S3D:  globalikf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalikf_chr2.s3d
+Processing S3D:  globalikm_chr.s3d Skip Images:  true
+Processing S3D:  globalikm_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalikm_chr2.s3d
+Processing S3D:  globalkef_chr.s3d Skip Images:  true
+Processing S3D:  globalkef_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalkef_chr2.s3d
+Processing S3D:  globalkem_chr.s3d Skip Images:  true
+Processing S3D:  globalkem_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalkem_chr2.s3d
+Processing S3D:  globalogf_chr.s3d Skip Images:  true
+Processing S3D:  globalogf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalogf_chr2.s3d
+Processing S3D:  globalogm_chr.s3d Skip Images:  true
+Processing S3D:  globalogm_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalogm_chr2.s3d
+Processing S3D:  globalpcfroglok_chr.s3d Skip Images:  true
+Processing S3D:  globalske_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globalske_chr2.s3d
+Processing S3D:  globaltrf_chr.s3d Skip Images:  true
+Processing S3D:  globaltrf_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globaltrf_chr2.s3d
+Processing S3D:  globaltrm_chr.s3d Skip Images:  true
+Processing S3D:  globaltrm_chr2.s3d Skip Images:  true
+Inflate directory failed
+Processed - globaltrm_chr2.s3d
+(node:2505265) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/tommy/eqsage/sage/lib/s3d/s3d-decoder.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/tommy/eqsage/sage/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)

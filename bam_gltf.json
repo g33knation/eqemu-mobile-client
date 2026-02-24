@@ -1,0 +1,1079 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.1.1",
+    "version": "2.0"
+  },
+  "accessors": "Array(30946)",
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 10192,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10192,
+      "byteLength": 6888,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17080,
+      "byteLength": 24192,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41272,
+      "byteLength": 13440,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54712,
+      "byteLength": 4032,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 58744,
+      "byteLength": 14448,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 73192,
+      "byteLength": 18816,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 92008,
+      "byteLength": 6720,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 98728,
+      "byteLength": 18648,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 117376,
+      "byteLength": 5040,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 122416,
+      "byteLength": 27888,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 150304,
+      "byteLength": 16800,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 167104,
+      "byteLength": 15792,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 182896,
+      "byteLength": 13776,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 196672,
+      "byteLength": 6720,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 203392,
+      "byteLength": 2016,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 205408,
+      "byteLength": 2016,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 207424,
+      "byteLength": 6720,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 214144,
+      "byteLength": 6720,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 220864,
+      "byteLength": 42000,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 262864,
+      "byteLength": 3696,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 266560,
+      "byteLength": 1680,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 268240,
+      "byteLength": 1680,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 269920,
+      "byteLength": 1344,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 271264,
+      "byteLength": 7392,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 278656,
+      "byteLength": 6720,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 285376,
+      "byteLength": 5040,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 290416,
+      "byteLength": 5040,
+      "byteStride": 56,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 295456,
+      "byteLength": 3312320
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3607776
+    }
+  ],
+  "materials": [
+    {
+      "name": "bamch0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamch0003",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamlg0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamlg0003",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamft0004",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamlg0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamfa0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamua0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamua0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhn0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhn0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhn0003",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamft0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamft0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamft0003",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamch0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamfa0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0008",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0001",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0004",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0005",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0002",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0003",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0007",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamhe0006",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "bamr_eye",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "baml_eye",
+      "extras": {
+        "eqShader": 0
+      },
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0,
+          "specularColorFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bam",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27,
+            "NORMAL": 28,
+            "TEXCOORD_0": 29,
+            "JOINTS_0": 30,
+            "WEIGHTS_0": 31
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 32,
+            "NORMAL": 33,
+            "TEXCOORD_0": 34,
+            "JOINTS_0": 35,
+            "WEIGHTS_0": 36
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 37,
+            "NORMAL": 38,
+            "TEXCOORD_0": 39,
+            "JOINTS_0": 40,
+            "WEIGHTS_0": 41
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 42,
+            "NORMAL": 43,
+            "TEXCOORD_0": 44,
+            "JOINTS_0": 45,
+            "WEIGHTS_0": 46
+          },
+          "mode": 4,
+          "material": 3,
+          "indices": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 47,
+            "NORMAL": 48,
+            "TEXCOORD_0": 49,
+            "JOINTS_0": 50,
+            "WEIGHTS_0": 51
+          },
+          "mode": 4,
+          "material": 4,
+          "indices": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 52,
+            "NORMAL": 53,
+            "TEXCOORD_0": 54,
+            "JOINTS_0": 55,
+            "WEIGHTS_0": 56
+          },
+          "mode": 4,
+          "material": 5,
+          "indices": 5
+        },
+        {
+          "attributes": {
+            "POSITION": 57,
+            "NORMAL": 58,
+            "TEXCOORD_0": 59,
+            "JOINTS_0": 60,
+            "WEIGHTS_0": 61
+          },
+          "mode": 4,
+          "material": 6,
+          "indices": 6
+        },
+        {
+          "attributes": {
+            "POSITION": 62,
+            "NORMAL": 63,
+            "TEXCOORD_0": 64,
+            "JOINTS_0": 65,
+            "WEIGHTS_0": 66
+          },
+          "mode": 4,
+          "material": 7,
+          "indices": 7
+        },
+        {
+          "attributes": {
+            "POSITION": 67,
+            "NORMAL": 68,
+            "TEXCOORD_0": 69,
+            "JOINTS_0": 70,
+            "WEIGHTS_0": 71
+          },
+          "mode": 4,
+          "material": 8,
+          "indices": 8
+        },
+        {
+          "attributes": {
+            "POSITION": 72,
+            "NORMAL": 73,
+            "TEXCOORD_0": 74,
+            "JOINTS_0": 75,
+            "WEIGHTS_0": 76
+          },
+          "mode": 4,
+          "material": 9,
+          "indices": 9
+        },
+        {
+          "attributes": {
+            "POSITION": 77,
+            "NORMAL": 78,
+            "TEXCOORD_0": 79,
+            "JOINTS_0": 80,
+            "WEIGHTS_0": 81
+          },
+          "mode": 4,
+          "material": 10,
+          "indices": 10
+        },
+        {
+          "attributes": {
+            "POSITION": 82,
+            "NORMAL": 83,
+            "TEXCOORD_0": 84,
+            "JOINTS_0": 85,
+            "WEIGHTS_0": 86
+          },
+          "mode": 4,
+          "material": 11,
+          "indices": 11
+        },
+        {
+          "attributes": {
+            "POSITION": 87,
+            "NORMAL": 88,
+            "TEXCOORD_0": 89,
+            "JOINTS_0": 90,
+            "WEIGHTS_0": 91
+          },
+          "mode": 4,
+          "material": 12,
+          "indices": 12
+        },
+        {
+          "attributes": {
+            "POSITION": 92,
+            "NORMAL": 93,
+            "TEXCOORD_0": 94,
+            "JOINTS_0": 95,
+            "WEIGHTS_0": 96
+          },
+          "mode": 4,
+          "material": 13,
+          "indices": 13
+        },
+        {
+          "attributes": {
+            "POSITION": 97,
+            "NORMAL": 98,
+            "TEXCOORD_0": 99,
+            "JOINTS_0": 100,
+            "WEIGHTS_0": 101
+          },
+          "mode": 4,
+          "material": 14,
+          "indices": 14
+        },
+        {
+          "attributes": {
+            "POSITION": 102,
+            "NORMAL": 103,
+            "TEXCOORD_0": 104,
+            "JOINTS_0": 105,
+            "WEIGHTS_0": 106
+          },
+          "mode": 4,
+          "material": 15,
+          "indices": 15
+        },
+        {
+          "attributes": {
+            "POSITION": 107,
+            "NORMAL": 108,
+            "TEXCOORD_0": 109,
+            "JOINTS_0": 110,
+            "WEIGHTS_0": 111
+          },
+          "mode": 4,
+          "material": 16,
+          "indices": 16
+        },
+        {
+          "attributes": {
+            "POSITION": 112,
+            "NORMAL": 113,
+            "TEXCOORD_0": 114,
+            "JOINTS_0": 115,
+            "WEIGHTS_0": 116
+          },
+          "mode": 4,
+          "material": 17,
+          "indices": 17
+        },
+        {
+          "attributes": {
+            "POSITION": 117,
+            "NORMAL": 118,
+            "TEXCOORD_0": 119,
+            "JOINTS_0": 120,
+            "WEIGHTS_0": 121
+          },
+          "mode": 4,
+          "material": 18,
+          "indices": 18
+        },
+        {
+          "attributes": {
+            "POSITION": 122,
+            "NORMAL": 123,
+            "TEXCOORD_0": 124,
+            "JOINTS_0": 125,
+            "WEIGHTS_0": 126
+          },
+          "mode": 4,
+          "material": 19,
+          "indices": 19
+        },
+        {
+          "attributes": {
+            "POSITION": 127,
+            "NORMAL": 128,
+            "TEXCOORD_0": 129,
+            "JOINTS_0": 130,
+            "WEIGHTS_0": 131
+          },
+          "mode": 4,
+          "material": 20,
+          "indices": 20
+        },
+        {
+          "attributes": {
+            "POSITION": 132,
+            "NORMAL": 133,
+            "TEXCOORD_0": 134,
+            "JOINTS_0": 135,
+            "WEIGHTS_0": 136
+          },
+          "mode": 4,
+          "material": 21,
+          "indices": 21
+        },
+        {
+          "attributes": {
+            "POSITION": 137,
+            "NORMAL": 138,
+            "TEXCOORD_0": 139,
+            "JOINTS_0": 140,
+            "WEIGHTS_0": 141
+          },
+          "mode": 4,
+          "material": 22,
+          "indices": 22
+        },
+        {
+          "attributes": {
+            "POSITION": 142,
+            "NORMAL": 143,
+            "TEXCOORD_0": 144,
+            "JOINTS_0": 145,
+            "WEIGHTS_0": 146
+          },
+          "mode": 4,
+          "material": 23,
+          "indices": 23
+        },
+        {
+          "attributes": {
+            "POSITION": 147,
+            "NORMAL": 148,
+            "TEXCOORD_0": 149,
+            "JOINTS_0": 150,
+            "WEIGHTS_0": 151
+          },
+          "mode": 4,
+          "material": 24,
+          "indices": 24
+        },
+        {
+          "attributes": {
+            "POSITION": 152,
+            "NORMAL": 153,
+            "TEXCOORD_0": 154,
+            "JOINTS_0": 155,
+            "WEIGHTS_0": 156
+          },
+          "mode": 4,
+          "material": 25,
+          "indices": 25
+        },
+        {
+          "attributes": {
+            "POSITION": 157,
+            "NORMAL": 158,
+            "TEXCOORD_0": 159,
+            "JOINTS_0": 160,
+            "WEIGHTS_0": 161
+          },
+          "mode": 4,
+          "material": 26,
+          "indices": 26
+        }
+      ]
+    }
+  ],
+  "nodes": "Array(106)",
+  "skins": [
+    {
+      "name": "mesh-skeleton",
+      "joints": "Array(104)"
+    }
+  ],
+  "animations": "Array(74)",
+  "scenes": [
+    {
+      "name": "bam",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ]
+}

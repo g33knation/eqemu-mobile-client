@@ -1,0 +1,96 @@
+Loading S3D Archives...
+Processing S3D:  globalelm_chr.s3d Skip Images:  true
+Processing WLD file - globalelm_chr.wld
+Processed - globalelm_chr.s3d
+Extracted ELM Skeleton!
+Processing S3D:  global_chr.s3d Skip Images:  false
+Processing WLD file - global_chr.wld
+Processed - global_chr.s3d
+Done processing images global_chr.s3d - 1616
+Found 5 BAM meshes! Hooking up to ELM skeleton...
+ELM Skeleton has 71 animations loaded before export!
+Keys in tracksCleanedStripped (pos): [
+  'root',          'pebip01',      'pepelvis',      'chchest',
+  'chchest1',      'chchest2',     'neneck',        'hehead',
+  'hehair1',       'hehair2',      'hebeard1',      'hebeard2',
+  'faeyel',        'faeyer',       'faliptop',      'faeyelidltop',
+  'faeyelidlbot',  'faeyelidrtop', 'faeyelidrbot',  'faeyebrowr',
+  'faeyebrowl',    'fanose',       'falipcorners',  'fajaw',
+  'falipbottom',   'hair_point01', 'head_point',    'hair_point',
+  'biclavl',       'bibicepl',     'foforearml',    'fihandl',
+  'fithumbl1',     'fithumbl2',    'fifingerl1',    'fifingerl2',
+  'l_point',       'forobearml1',  'forobearml2',   'forobearml3',
+  'forobearml4',   'gauntl_point', 'shield_point',  'bideltl02',
+  'bideltl',       'bideltl01',    'shouldl_point', 'biclavr',
+  'bibicepr',      'foforearmr',   'fihandr',       'fithumbr1',
+  'fithumbr2',     'fifingerr1',   'fifingerr2',    'r_point',
+  'forobearmr1',   'forobearmr2',  'forobearmr3',   'forobearmr4',
+  'gauntr_point',  'bideltr02',    'bideltr03',     'bideltr01',
+  'shouldr_point', 'ththighl',     'cacalfl',       'bofootl',
+  'totoel',        'legr_point',   'cakneel',       'thrp',
+  'ththighr',      'cacalfr',      'bofootr',       'totoer',
+  'legl_point',    'cakneer',      'thlp',          'pebuttl',
+  'pebuttr',       'petunic',      'robepoint04',   'robepoint05',
+  'robepoint06',   'robepoint10',  'robepoint11',   'robepoint12',
+  'robepoint16',   'robepoint17',  'robepoint18',   'robepoint13',
+  'robepoint14',   'robepoint15',  'robepoint1',    'robepoint2',
+  'robepoint03',   'robepoint07',  'robepoint08',   'robepoint09',
+  ... 4 more items
+]
+Bones in skeleton (cleanedName): [
+  'root',          'pebip01',      'pepelvis',      'chchest',
+  'chchest1',      'chchest2',     'neneck',        'hehead',
+  'hehair1',       'hehair2',      'hebeard1',      'hebeard2',
+  'faeyel',        'faeyer',       'faliptop',      'faeyelidltop',
+  'faeyelidlbot',  'faeyelidrtop', 'faeyelidrbot',  'faeyebrowr',
+  'faeyebrowl',    'fanose',       'falipcorners',  'fajaw',
+  'falipbottom',   'hair_point01', 'head_point',    'hair_point',
+  'biclavl',       'bibicepl',     'foforearml',    'fihandl',
+  'fithumbl1',     'fithumbl2',    'fifingerl1',    'fifingerl2',
+  'l_point',       'forobearml1',  'forobearml2',   'forobearml3',
+  'forobearml4',   'gauntl_point', 'shield_point',  'bideltl02',
+  'bideltl',       'bideltl01',    'shouldl_point', 'biclavr',
+  'bibicepr',      'foforearmr',   'fihandr',       'fithumbr1',
+  'fithumbr2',     'fifingerr1',   'fifingerr2',    'r_point',
+  'forobearmr1',   'forobearmr2',  'forobearmr3',   'forobearmr4',
+  'gauntr_point',  'bideltr02',    'bideltr03',     'bideltr01',
+  'shouldr_point', 'ththighl',     'cacalfl',       'bofootl',
+  'totoel',        'legr_point',   'cakneel',       'thrp',
+  'ththighr',      'cacalfr',      'bofootr',       'totoer',
+  'legl_point',    'cakneer',      'thlp',          'pebuttl',
+  'pebuttr',       'petunic',      'robepoint04',   'robepoint05',
+  'robepoint06',   'robepoint10',  'robepoint11',   'robepoint12',
+  'robepoint16',   'robepoint17',  'robepoint18',   'robepoint13',
+  'robepoint14',   'robepoint15',  'robepoint1',    'robepoint2',
+  'robepoint03',   'robepoint07',  'robepoint08',   'robepoint09',
+  ... 4 more items
+]
+Exporting custom skinned mesh 'bam.glb'...
+  Animation Lookup: Race=elm, DerivedBase=bam
+  Missing texture data for: bamch0001
+  Missing texture data for: bamft0002
+  Missing texture data for: bamlg0002
+  Missing texture data for: bamlg0003
+  Missing texture data for: bamft0001
+  Missing texture data for: bamlg0001
+  Missing texture data for: bamfa0001
+  Missing texture data for: bamua0001
+  Missing texture data for: bamhn0001
+  Missing texture data for: bamhn0002
+  Missing texture data for: bamch0002
+  Missing texture data for: bamhe0001
+  Missing texture data for: bamhe0002
+  Missing texture data for: bamhe0105
+  Missing texture data for: bamhe0103
+  Missing texture data for: bamhe0104
+  Missing texture data for: bamhe0102
+  Missing texture data for: bamhe0106
+  Missing texture data for: chain01
+  Missing texture data for: bamhe0003
+  Missing texture data for: bamhe0004
+  Missing texture data for: bamhe0005
+Successfully rigged BAM meshes to ELM skeleton! Check output dir.
+(node:2514346) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/tommy/eqsage/sage/lib/s3d/s3d-decoder.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/tommy/eqsage/sage/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
