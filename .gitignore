@@ -5,3 +5,47 @@
 .DS_Store
 package-lock.json
 /tmp_assets
+
+# Build artifacts
+**/bin/
+**/obj/
+**/ref/
+**/refint/
+
+# Python artifacts
+**/(__pycache__|.pyc|.pyo)
+
+# Temporary and asset files
+real_assets/
+tmp_compare/
+tmp_gallery/
+tmp_tex/
+extraction_log*.txt
+*scan_results.txt
+*log.txt
+
+# C# / .NET
+*.pdb
+*.dll
+*.exe
+*.deps.json
+*.runtimeconfig.json
+*.genruntimeconfig.cache
+*.assets.cache
+*.AssemblyReference.cache
+
+# Test/Misc
+test_bytes.rs
+test_ws.py
+bam2_frags.txt
+bam_frags.txt
+bamhe_log*.txt
+bamhe_meshes.txt
+chr_files.txt
+dump_bam.txt
+gequip_bam.txt
+global_chr_frags.txt
+meshes.txt
+skels.txt
+sum.txt
+unknown_frags.txt

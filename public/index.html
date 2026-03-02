@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Akk-Stack Mobile Client</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        #loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            color: #fff;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loading-overlay">Initializing Client...</div>
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="screen active">
+        <div class="panel">
+            <h1>Sage Client</h1>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="login-user" value="tmc" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="login-pass" value="tmc">
+            </div>
+            <button id="btn-login">Connect</button>
+            <div id="login-error" style="color: var(--error); margin-top: 15px; display: none;"></div>
+        </div>
+    </div>
+
+    <!-- Server Select -->
+    <div id="server-screen" class="screen">
+        <div class="panel">
+            <h1>Select Server</h1>
+            <div id="server-list" class="scroll-list">
+                <!-- Servers populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Character Select -->
+    <div id="character-screen" class="screen">
+        <div class="panel">
+            <h1>The Tavern</h1>
+            <div id="char-list" class="scroll-list">
+                <!-- Characters populated here -->
+            </div>
+            <button id="btn-show-create" class="secondary" style="margin-top: 20px;">Create Character</button>
+        </div>
+    </div>
+
+    <!-- Character Creation Modal -->
+    <div id="create-modal" class="screen" style="background: rgba(0,0,0,0.8); z-index: 1000;">
+        <div class="panel">
+            <h1>New Hero</h1>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" id="create-name" maxlength="15" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label>Race</label>
+                <select id="create-race" class="form-select">
+                    <option value="1">Human</option>
+                    <option value="2">Barbarian</option>
+                    <option value="3">Erudite</option>
+                    <option value="4">Wood Elf</option>
+                    <option value="5">High Elf</option>
+                    <option value="6">Dark Elf</option>
+                    <option value="7">Half Elf</option>
+                    <option value="8">Dwarf</option>
+                    <option value="9">Troll</option>
+                    <option value="10">Ogre</option>
+                    <option value="11">Halfling</option>
+                    <option value="12">Gnome</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Class</label>
+                <select id="create-class" class="form-select">
+                    <option value="1">Warrior</option>
+                    <option value="2">Cleric</option>
+                    <option value="3">Paladin</option>
+                    <option value="4">Ranger</option>
+                    <option value="5">Shadow Knight</option>
+                    <option value="6">Druid</option>
+                    <option value="7">Monk</option>
+                    <option value="8">Bard</option>
+                    <option value="9">Rogue</option>
+                    <option value="10">Shaman</option>
+                    <option value="11">Necromancer</option>
+                    <option value="12">Wizard</option>
+                    <option value="13">Magician</option>
+                    <option value="14">Enchanter</option>
+                </select>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button id="btn-create-submit">Create</button>
+                <button id="btn-create-cancel" class="cancel" style="background: #444;">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game World -->
+    <div id="game-screen" class="screen">
+        <div id="canvas-container"></div>
+        <div class="ui-overlay">
+            <div id="character-card" class="stats-panel">
+                <div id="player-name" style="font-weight: 600; color: var(--accent);">Connecting...</div>
+                <div id="player-zone" style="font-size: 0.8rem; color: var(--text-muted);">Syncing with server</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+    </script>
+    <script type="module" src="game.js"></script>
+</body>
+
+</html>

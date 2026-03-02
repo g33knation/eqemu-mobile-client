@@ -1,0 +1,172 @@
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* RETRO EQ THEME (Velious/Classic Style) */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+:root {
+    --eq-window-bg: rgba(10, 15, 30, 0.85); /* Dark Blue Stone tint */
+    --eq-border-light: #6b7a99;
+    --eq-border-dark: #1a2033;
+    --eq-text-gold: #fcc200;
+    --eq-text-white: #f0f0f0;
+    --eq-hp-red: #bb0000;
+    --eq-mana-blue: #0000bb;
+    --eq-font-main: 'Arial', sans-serif; /* Classic EQ didn't use fancy fonts ingame much, mostly Arial/Verdana */
+    --eq-font-title: 'Cinzel', serif;
+}
+
+body {
+    font-family: var(--eq-font-main);
+    text-shadow: 1px 1px 0 #000;
+    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAAAAAAAAAKoppsEAAAAASUVORK5CYII='), auto; /* Placeholder cursor if needed */
+}
+
+/* Base Window Style */
+.eq-window {
+    background: var(--eq-window-bg);
+    border: 2px solid;
+    border-color: var(--eq-border-light) var(--eq-border-dark) var(--eq-border-dark) var(--eq-border-light);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    padding: 0; /* Let inner containers handle padding if needed, or set standard */
+    color: var(--eq-text-white);
+    border-radius: 2px; /* Slight rounding, mostly sharp */
+}
+
+/* EQ Window Title Bar */
+.eq-titlebar {
+    background: linear-gradient(90deg, #2a3a55, #111);
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #aeaeae;
+    border-bottom: 1px solid #000;
+    cursor: grab;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HUD Info Top-Left Override */
+#hud-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 220px;
+    /* Use eq-window style mixed in */
+    background: var(--eq-window-bg) !important;
+    border: 2px solid !important;
+    border-color: var(--eq-border-light) var(--eq-border-dark) var(--eq-border-dark) var(--eq-border-light) !important;
+    border-radius: 0 !important;
+    backdrop-filter: none !important;
+    padding: 0 !important;
+}
+#hud-info .eq-content {
+    padding: 8px;
+}
+#hud-info .label { color: #aaa; font-weight: bold; }
+#hud-info .value { color: #fff; font-family: 'Roboto Mono', monospace; }
+#zone-name { color: #6cf; text-shadow: 1px 1px #000; }
+
+/* Target Panel Override */
+#target-panel {
+    /* Centered top */
+    top: 40px !important; 
+    background: var(--eq-window-bg) !important;
+    border: 2px solid !important;
+    border-color: var(--eq-border-light) var(--eq-border-dark) var(--eq-border-dark) var(--eq-border-light) !important;
+    border-radius: 0 !important;
+    padding: 5px 20px !important;
+    min-width: 200px;
+}
+
+/* Stats Panel (Character Window Mock) */
+#stats-panel {
+    background: var(--eq-window-bg) !important;
+    border: 2px solid !important;
+    border-color: var(--eq-border-light) var(--eq-border-dark) var(--eq-border-dark) var(--eq-border-light) !important;
+    border-radius: 0 !important;
+    backdrop-filter: none !important;
+    width: 200px;
+    /* Move layout to look like Inventory stats area */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Gauge Bars */
+.bar-container {
+    background: #111 !important;
+    border: 1px solid #666;
+    height: 12px !important;
+    border-radius: 0 !important;
+    position: relative;
+}
+.bar-fill {
+    border-radius: 0 !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+}
+.bar-hp { background: #aa0000 !important; }
+.bar-mana { background: #0000aa !important; }
+
+/* Stat grid tweaks */
+.stat-row { justify-content: space-between; font-family: 'Roboto Mono', monospace; font-size: 11px; }
+.stat-item { color: #ccc; }
+.stat-item span { color: var(--eq-text-gold); }
+
+/* Chat Window / Log (Future proofing) */
+#chat-window {
+    position: absolute;
+    bottom: 10px;
+    left: 220px; /* Right of stats */
+    width: 400px;
+    height: 150px;
+    background: rgba(0,0,0,0.6);
+    border: 1px solid #444;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    overflow-y: scroll;
+    pointer-events: auto;
+    display: none; /* Hidden for now */
+}
+
+/* Action Buttons (Hotbar style) */
+#action-buttons {
+    flex-direction: row !important; /* Horizontal hotbar */
+    bottom: 10px !important;
+    right: 10px !important;
+    background: var(--eq-window-bg);
+    padding: 5px;
+    border: 2px solid;
+    border-color: var(--eq-border-light) var(--eq-border-dark) var(--eq-border-dark) var(--eq-border-light);
+}
+
+.action-btn {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 2px !important;
+    border: 1px solid #999 !important;
+    background: #444 !important;
+    box-shadow: inset 1px 1px 0 rgba(255,255,255,0.2), inset -1px -1px 0 rgba(0,0,0,0.5) !important;
+    font-size: 10px !important;
+    text-transform: uppercase;
+}
+.action-btn:active {
+    border: 1px solid #555 !important;
+    background: #333 !important;
+    box-shadow: inset 1px 1px 3px #000 !important;
+    transform: translate(1px, 1px);
+}
+#btn-attack {
+    background: radial-gradient(circle, #700, #400) !important;
+    border-color: #f55 !important;
+}
+
+/* Floating Damage Retro Font */
+.floating-dmg {
+    font-family: 'Times New Roman', serif; /* Classic damage font-ish */
+    font-size: 24px !important;
+    color: #ff0000 !important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Strong outline */
+}

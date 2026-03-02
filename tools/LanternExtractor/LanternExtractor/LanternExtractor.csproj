@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <LangVersion>7</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>CA1416</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="$([MSBuild]::VersionGreaterThanOrEquals('$(NETCoreSdkVersion)', '6.0'))">
+    <UseCurrentRuntimeIdentifier>true</UseCurrentRuntimeIdentifier>
+  </PropertyGroup>
+  <PropertyGroup Condition="!$([MSBuild]::VersionGreaterThanOrEquals('$(NETCoreSdkVersion)', '6.0'))">
+    <Arch>$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture)</Arch>
+    <RuntimeIdentifier Condition=" '$([MSBuild]::IsOSPlatform(Windows))' ">win-$(Arch.ToLower())</RuntimeIdentifier>
+    <RuntimeIdentifier Condition=" '$([MSBuild]::IsOSPlatform(Linux))' ">linux-$(Arch.ToLower())</RuntimeIdentifier>
+    <RuntimeIdentifier Condition=" '$([MSBuild]::IsOSPlatform(OSX))' ">osx-$(Arch.ToLower())</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ClientData\animationsources.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EalTools" Version="0.1.1" />
+    <PackageReference Include="GlmSharp">
+      <Version>0.9.8</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Pfim">
+      <Version>0.10.0</Version>
+    </PackageReference>
+    <PackageReference Include="SharpGLTF.Toolkit">
+      <Version>1.0.0-alpha0025</Version>
+    </PackageReference>
+    <PackageReference Include="System.ComponentModel.Composition" Version="6.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="DotNetZip" Version="1.16.0" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+</Project>
